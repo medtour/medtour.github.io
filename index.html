@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MedTour</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<link rel="stylesheet" href="purecss.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+.smedia { height:150px; width:40px; overflow:hidden; position:fixed; top:40%; left:0px;}
+.fa {  padding: 9px 17px 19px 12px;  font-size: 23px; width: 10px; text-align: center; text-decoration: none; border-radius: 50%; height:10px; margin: 5px 0px;}
+.fa:hover {opacity: 0.7;}
+.fa-facebook { background: #3B5998; color: white;}
+.fa-twitter { background: #55ACEE; color: white;}
+.fa-youtube {  background: #bb0000;  color: white;}
+
+
+.parallax1 {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/img1.jpg"); min-height:calc(100vh - 82px); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
+.container {border:0;}
+.parallax1>h1 {text-align:center; color:white; margin-top:150px; font-family: 'Merriweather',Times,serif; font-weight: 900;font-style: italic;font-size: 2.9375rem;}
+.parallax1>p {text-align:center; color:white; max-width:500px; margin:auto;}
+
+.block2>h2 {text-align:center;}
+.block2>p {text-align:center; width:80%; margin:auto; padding-bottom:30px;}
+
+.block3 {width:90%; margin:auto;}
+.block3>div>h3 {margin:auto; text-align:center; padding-top:15px; padding-bottom:15px;}
+.block3>div>p { padding-left:0px; padding-top:0px; padding-bottom:30px; margin:auto; text-align:center;}
+.block3>div>img {display:block; height:auto;width:100%;}
+.block3>.col-sm-4 { }
+
+.parallax2 {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/img2.jpg"); min-height:calc(100vh - 82px); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
+.parallax2>h2 {color:white; text-align:center;font-size: 47px;font-family: 'Montserrat',Arial,sans-serif;font-weight: 700;}
+.parallax2>p {color:white; text-align:center; max-width:700px; margin:auto;font-family: 'Merriweather',Times,serif;font-size: 18px;}
+
+.parallax2>div {background-color:white; text-align:center; max-width:500px; margin:auto; margin-top:50px; border:15px solid; border-color:transparent;}
+.parallax2>div>p { margin-top:0px;}
+
+.heart {  background-color: red; display: inline-block; height: 30px; margin: 0 10px; position: relative; top:-20px; transform: rotate(-45deg); width: 30px;}
+.heart:before,.heart:after { content: ""; background-color: red; border-radius: 50%; height: 30px; position: absolute; width: 30px;}
+.heart:before { top: -15px; left: 0;}
+.heart:after { left: 15px; top: 0;}
+
+
+</style>
+</head>
+<body>
+
+<header id="headercontent"></header>
+<div id="menutoggle" class="nav hide"></div>
+
+<div class="smedia">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+</div>
+
+<div class="parallax1 container">
+<h1>Make a difference</br>
+Help & Love</h1>
+<p>This theme has been inspired by the beautiful “Living on One Dollar” documentary. Please watch the documentary, help spread a word & donate. Thanks ♥</p>
+</div>
+
+
+<div class="block2 container">
+<h2>WELCOME TO PEÑA DEMO</h2>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ♥ Aenean commodo ligula eget dolor
+Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac.</p>
+</div>
+
+
+<div class="container block3">
+<div class="col-sm-4">
+<img src="img/1.jpg" alt="Img">
+<h3>DONATE</h3>
+<p>Vitae rutrum. Vehicula laoreet eleifend parturient. Posuere, enim. Commodo aliquam integer libero, convallis.</p>
+
+<p>Continue reading</p>
+</div>
+<div class="col-sm-4">
+<img src="img/3.jpg" alt="Img">
+<h3>START YOUR JOURNEY</h3>
+<p>Vitae rutrum. Vehicula laoreet eleifend parturient. Posuere, enim. Commodo aliquam integer libero, convallis.</p>
+
+<p>Continue reading</p>
+</div>
+<div class="col-sm-4">
+<img src="img/2.jpg" alt="Img">
+<h3>WATCH THE FILM</h3>
+<p>Vitae rutrum. Vehicula laoreet eleifend parturient. Posuere, enim. Commodo aliquam integer libero, convallis.</p>
+
+<p>Continue reading</p>
+</div>
+</div>
+<div class="parallax2 container">
+<h2>MAKE A DIFFERENCE IN THE WORLD</h2>
+<p>Id duis Sagittis. Posuere natoque porta a egestas turpis convallis aptent nonummy. Non. Pellentesque tempus?
+Molestie faucibus hymenaeos quisque nostra!</p>
+<div>
+<div class="heart"></div>
+<p>Id duis Sagittis. Posuere natoque porta a egestas turpis convallis aptent nonummy. Non. Pellentesque tempus erat habitant. Please help us support them!</p>
+<p>Thank you! We appreciate your generosity!</p>
+</div>
+</div>
+
+
+<script>
+$(document).ready(function(){
+
+	$("#toggle").click(function(){
+		$("#togglee").toggleClass("a b");
+	});
+	
+	$("#toggle").click(function(){
+		$("#arrowtoggle").toggleClass("arrowimg1 arrowimg2");
+	});
+	
+	$("#menubars").click(function(){
+		
+		$("#menutoggle").toggleClass("hide show");
+	});
+	
+	$("#menubars").click(function(){
+		
+		$("#menubars").toggleClass("menu menuon");
+	});
+	
+
+});
+
+</script>
+
+<script src="spawner.js"></script>
+<script>spawnCall();</script>
+
+<script>
+
+setTimeout(function (){
+document.getElementById("index").classList.add("active");
+}, 1000); // How long do you want the delay to be (in milliseconds)?
+
+</script>
+
+</body>
+</html>
