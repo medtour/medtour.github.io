@@ -7,15 +7,16 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <link rel="stylesheet" href="purecss.css">
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
 <style>
-.smedia { height:150px; width:40px; overflow:hidden; position:fixed; top:40%; left:0px;}
-.fa {  padding: 9px 17px 19px 12px;  font-size: 23px; width: 10px; text-align: center; text-decoration: none; border-radius: 50%; height:10px; margin: 5px 0px;}
-.fa:hover {opacity: 0.7;}
-.fa-facebook { background: #3B5998; color: white;}
-.fa-twitter { background: #55ACEE; color: white;}
-.fa-youtube {  background: #bb0000;  color: white;}
+.smedia { height:200px; width:40px; overflow:hidden; position:fixed; top:40%; left:0px;}
+.smedia>.fab {  padding: 9px 17px 19px 12px;  font-size: 23px; width: 10px; text-align: center; text-decoration: none; border-radius: 50%; height:10px; margin: 5px 0px;}
+.smedia>.fab:hover {opacity: 0.7;}
+.smedia>.fa-facebook-f { background: #3B5998; color: white;}
+.smedia>.fa-twitter { background: #55ACEE; color: white;}
+.smedia>.fa-youtube {  background: #bb0000;  color: white;}
+.smedia>.fa-instagram {  background: #125688;  color: white;}
 
 
 .parallax1 {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/img1.jpg"); min-height:calc(100vh - 82px); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
@@ -44,6 +45,20 @@
 .heart:before { top: -15px; left: 0;}
 .heart:after { left: 15px; top: 0;}
 
+.block45 {width:95%; margin:auto;}
+
+.block4 {width:90%; margin:auto;}
+.block4>div>h3 {margin:auto; text-align:center; padding-top:15px; padding-bottom:15px;}
+.block4>div>p { padding-left:0px; padding-top:0px; padding-bottom:30px; margin:auto; text-align:center;}
+.block4>div>img {display:block; height:auto;width:100%;}
+
+.block5 {}
+.block5>.container {border:3px solid #f6f6f6; width:90%; margin:auto; margin-top:20px;}
+.block5>.container>h3 {text-align:center;}
+.block5>.container>img {width:calc(100% - 20px); margin:auto; display:block; padding:10px; border-top:3px solid #f6f6f6;}
+.block5>.container>i {height:30px; width:20px; }
+.block5>div {text-align:center; }
+
 
 </style>
 </head>
@@ -53,9 +68,10 @@
 <div id="menutoggle" class="nav hide"></div>
 
 <div class="smedia">
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fab fa-facebook-f"></a>
+<a href="#" class="fab fa-twitter"></a>
+<a href="#" class="fab fa-youtube"></a>
+<a href="#" class="fab fa-instagram"></a>
 </div>
 
 <div class="parallax1 container">
@@ -106,6 +122,55 @@ Molestie faucibus hymenaeos quisque nostra!</p>
 <p>Thank you! We appreciate your generosity!</p>
 </div>
 </div>
+
+<div class="container block45">
+<div class="col-sm-9">
+<div class="container block4">
+<div class="col-sm-6">
+<img src="img/blog11.jpg" alt="Img">
+<h3>NUTRITION</h3>
+<p>Vitae rutrum. Vehicula laoreet eleifend parturient. Posuere, enim. Commodo aliquam integer libero, convallis.</p>
+</div>
+<div class="col-sm-6">
+<img src="img/blog21.jpg" alt="Img">
+<h3>WATER</h3>
+<p>Vitae rutrum. Vehicula laoreet eleifend parturient. Posuere, enim. Commodo aliquam integer libero, convallis.</p>
+</div>
+</div>
+<div class="container block4">
+<div class="col-sm-6">
+<img src="img/blog31.jpg" alt="Img">
+<h3>EDUCATION</h3>
+<p>Vitae rutrum. Vehicula laoreet eleifend parturient. Posuere, enim. Commodo aliquam integer libero, convallis.</p>
+</div>
+<div class="col-sm-6">
+<img src="img/blog41.jpg" alt="Img">
+<h3>FINANCE</h3>
+<p>Vitae rutrum. Vehicula laoreet eleifend parturient. Posuere, enim. Commodo aliquam integer libero, convallis.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-3 block5">
+<div class="container">
+<h3>IMPACT PARTNERS</h3>
+<img src="img/1.jpg" alt="Img">
+</div>
+<div class="container">
+<h3>SOCIAL</h3>
+<i class="fab fa-facebook-square"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-youtube"></i>
+<i class="fab fa-instagram"></i>
+</div>
+<div class="container">
+<h3>SHOP</h3>
+<img src="img/shop.jpg" alt="Img">
+</div>
+</div>
+</div>
+
+
+
 
 
 <script>
