@@ -57,4 +57,12 @@ document.getElementById("menutoggle").innerHTML =
 "</ul>";
 
 
+document.getElementById("smedia").innerHTML = 
+
+"<a href='#' class='fab fa-facebook-f'></a>" +
+"<a href='#' class='fab fa-twitter'></a>" +
+"<a href='#' class='fab fa-youtube'></a>" +
+"<a href='#' class='fab fa-instagram'></a>" ;
+
+
 }
