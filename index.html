@@ -23,18 +23,17 @@
 .block3 {width:90%; margin:auto;}
 .block3>div>h3 {margin:auto; text-align:center; padding-top:15px; padding-bottom:15px;}
 .block3>div>p { padding-left:0px; padding-top:0px; padding-bottom:30px; margin:auto; text-align:center;}
-.block3>div>img {display:block; height:auto;width:100%;}
-.block3>.col-sm-4 { }
+.block3>div>img {display:block; height:200px;width:330px;}
 
-.parallax2 {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/img2.jpg"); min-height:calc(100vh - 82px); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
+.parallax2 {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/img2.jpg"); min-height:calc(100vh); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
 .parallax2>h2 {color:white; text-align:center;font-size: 47px;font-family: 'Montserrat',Arial,sans-serif;font-weight: 700;}
 .parallax2>p {color:white; text-align:center; max-width:700px; margin:auto;font-family: 'Merriweather',Times,serif;font-size: 18px;}
 
-.parallax2>div {background-color:white; text-align:center; max-width:500px; margin:auto; margin-top:50px; border:15px solid; border-color:transparent;}
+.parallax2>div {background-color:white; text-align:center; max-width:400px; margin:auto; margin-top:50px; border:8px solid #383838; border-color:;}
 .parallax2>div>p { margin-top:0px;}
 
-.heart {  background-color: red; display: inline-block; height: 30px; margin: 0 10px; position: relative; top:-20px; transform: rotate(-45deg); width: 30px;}
-.heart:before,.heart:after { content: ""; background-color: red; border-radius: 50%; height: 30px; position: absolute; width: 30px;}
+.heart {  background-color: #ec0843; display: inline-block; height: 30px; margin: 0 10px; position: relative; top:-10px; transform: rotate(-45deg); width: 30px;}
+.heart:before,.heart:after { content: ""; background-color: #ec0843; border-radius: 50%; height: 30px; position: absolute; width: 30px;}
 .heart:before { top: -15px; left: 0;}
 .heart:after { left: 15px; top: 0;}
 
@@ -43,15 +42,30 @@
 .block4 {width:90%; margin:auto;}
 .block4>div>h3 {margin:auto; text-align:center; padding-top:15px; padding-bottom:15px;}
 .block4>div>p { padding-left:0px; padding-top:0px; padding-bottom:30px; margin:auto; text-align:center;}
-.block4>div>img {display:block; height:auto;width:100%;}
+.block4>div>img {display:block; height:260px;width:100%;}
+.block4>div>iframe {height:260px;width:100%;}
+.block4>.col-sm-6 { position:relative; overflow:hidden;}
+.overlay {height:260px; width:calc(100% - 20px); position:absolute; top:0; left:0; display:block; margin:10px;}
+.overlay:hover {background-color:rgba(255, 0, 0, 0.6);}
+.overlay>i:hover { color:red;}
 
 .block5 {}
 .block5>.container {border:3px solid #f6f6f6; width:90%; margin:auto; margin-top:20px;}
 .block5>.container>h3 {text-align:center;}
 .block5>.container>img {width:calc(100% - 20px); margin:auto; display:block; padding:10px; border-top:3px solid #f6f6f6;}
 .block5>.container>i {height:30px; width:20px; }
+.block5>.container>form {text-align:left; padding:10px 20px;}
+.block5>.container>form>input {width:100%; margin-bottom:20px; height:30px; }
+.block5>.container>form>select {width:100%; margin-bottom:20px; height:40px; }
+.block5>.container>form>textarea {width:100%; margin-bottom:20px; height:50px;}
 .block5>div {text-align:center; }
 
+
+.bottomfooter {background-color:black; min-height:380px; overflow:hidden; width:100%; box-sizing:border-box; border-right:100px solid; border-left:100px solid;}
+.bottomfooter img {width:80%;}
+.bottomfooter div {color:white;}
+.button {  background-color: #ddd;  border: none; color: black; padding: 8px 15px; text-align: center; text-decoration: none; display:inline-block; margin: 4px 2px; cursor: pointer; border-radius: 6px;}
+.button:hover {  background-color: #f1f1f1;}
 
 </style>
 </head>
@@ -70,44 +84,67 @@ Help & Love</h1>
 
 
 <div class="block2 container">
-<h2>WELCOME TO PEÑA DEMO</h2>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ♥ Aenean commodo ligula eget dolor
-Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac.</p>
+<h2>WELCOME TO MEDTOUR</h2>
+<p>Wellcare orthopaedic centre, Bangalore is one of the premier Orthopaedic health care institutions in Bangalore-India, providing top quality specialised service and comprehensive care that is both curative and preventive in nature. Located in the heart of Bangalore, the garden city and the IT capital of India, we cater to the specific needs and demands of domestic and international patients.</p>
+
+<p>Continue reading</p>
 </div>
 
 
 <div class="container block3">
 <div class="col-sm-4">
-<img src="img/1.jpg" alt="Img">
-<h3>DONATE</h3>
-<p>Vitae rutrum. Vehicula laoreet eleifend parturient. Posuere, enim. Commodo aliquam integer libero, convallis.</p>
-
+<img src="img/knee.jpg" alt="Img">
+<h3>The key to Better Knees</h3>
+<p>People the world over are struggling with knee problems and are striving hard to find</p>
 <p>Continue reading</p>
 </div>
+
 <div class="col-sm-4">
-<img src="img/3.jpg" alt="Img">
-<h3>START YOUR JOURNEY</h3>
-<p>Vitae rutrum. Vehicula laoreet eleifend parturient. Posuere, enim. Commodo aliquam integer libero, convallis.</p>
-
+<img src="img/colon.jpg" alt="Img">
+<h3>Colon Therapy</h3>
+<p>Colon or large intestine is a part of the gastrointestinal tract which helps to</p>
 <p>Continue reading</p>
 </div>
+
 <div class="col-sm-4">
-<img src="img/2.jpg" alt="Img">
-<h3>WATCH THE FILM</h3>
-<p>Vitae rutrum. Vehicula laoreet eleifend parturient. Posuere, enim. Commodo aliquam integer libero, convallis.</p>
-
+<img src="img/spine.jpeg" alt="Img">
+<h3>Spine - Walk Out Feeling better</h3>
+<p>In an ever changing world where people are deeply involved for better careers and</p>
 <p>Continue reading</p>
 </div>
 </div>
+
+<div class="container block3">
+<div class="col-sm-4">
+<img src="img/rehab.jpg" alt="Img">
+<h3>Rehabilitation</h3>
+<p>A comprehensive multi disciplinary app roach for the treatment of paralytic and</p>
+<p>Continue reading</p>
+</div>
+
+<div class="col-sm-4">
+<img src="img/stem.jpg" alt="Img">
+<h3>Stem Cells Therapy</h3>
+<p>Use of bone marrow stem cells in regenerative medicine has shown an excellent success</p>
+<p>Continue reading</p>
+</div>
+
+<div class="col-sm-4">
+<img src="img/cosmetic.jpg" alt="Img">
+<h3>Cosmetic Dermat</h3>
+<p>Ultra Lipodissolve- Cellulite & Weight loss Power Shape- Inch Loss Skin Care</p>
+<p>Continue reading</p>
+</div>
+</div>
+
 <div class="parallax2 container">
-<h2>MAKE A DIFFERENCE IN THE WORLD</h2>
-<p>Id duis Sagittis. Posuere natoque porta a egestas turpis convallis aptent nonummy. Non. Pellentesque tempus?
-Molestie faucibus hymenaeos quisque nostra!</p>
+<h2>Dr. Ayesha</h2>
+<p>M.B.B.S., M.S. (Orthopaedics)</p>
+<p>M. Ch (Orthopaedics)</p>
+<p>Medical Director</p>
 <div>
-<div class="heart"></div>
-<p>Id duis Sagittis. Posuere natoque porta a egestas turpis convallis aptent nonummy. Non. Pellentesque tempus erat habitant. Please help us support them!</p>
-<p>Thank you! We appreciate your generosity!</p>
+<div class="heart"></div><br>
+<img src="img/doctor.jpg" alt="Img">
 </div>
 </div>
 
@@ -115,34 +152,55 @@ Molestie faucibus hymenaeos quisque nostra!</p>
 <div class="col-sm-9">
 <div class="container block4">
 <div class="col-sm-6">
-<img src="img/blog11.jpg" alt="Img">
-<h3>NUTRITION</h3>
-<p>Vitae rutrum. Vehicula laoreet eleifend parturient. Posuere, enim. Commodo aliquam integer libero, convallis.</p>
+<img src="img/docs.jpg" alt="Img">
+<div class="overlay"><i class="fas fa-file-download fa-3x"></i></div>
+<h3>MEET OUR DOCTORS</h3>
 </div>
 <div class="col-sm-6">
-<img src="img/blog21.jpg" alt="Img">
-<h3>WATER</h3>
-<p>Vitae rutrum. Vehicula laoreet eleifend parturient. Posuere, enim. Commodo aliquam integer libero, convallis.</p>
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/VvYOtZU44Fc?start=22" >
+</iframe>
+<h3>DOCTOR AYESHA</h3>
 </div>
 </div>
 <div class="container block4">
 <div class="col-sm-6">
-<img src="img/blog31.jpg" alt="Img">
-<h3>EDUCATION</h3>
-<p>Vitae rutrum. Vehicula laoreet eleifend parturient. Posuere, enim. Commodo aliquam integer libero, convallis.</p>
+<img src="img/pen.jpg" alt="Img">
+<h3>TESTIMONIALS</h3>
 </div>
 <div class="col-sm-6">
-<img src="img/blog41.jpg" alt="Img">
-<h3>FINANCE</h3>
-<p>Vitae rutrum. Vehicula laoreet eleifend parturient. Posuere, enim. Commodo aliquam integer libero, convallis.</p>
+<img src="img/brochure.jpg" alt="Img">
+<h3>DOWNOAD OUR BROCHURE</h3>
 </div>
 </div>
 </div>
+
 <div class="col-sm-3 block5">
 <div class="container">
-<h3>IMPACT PARTNERS</h3>
-<img src="img/1.jpg" alt="Img">
+<h3>MAKE AN APPOINTMENT</h3>
+<form action="" method="post">
+<label for="fname">First Name</label><br>
+<input type="text" id="fname" name="firstname" placeholder="Your name..">
+<br>
+<label for="lname">Last Name</label><br>
+<input type="text" id="lname" name="lastname" placeholder="Your last name.." >
+<br>
+<label for="country">Country</label><br>
+<select id="country" name="country">
+<option value="Bahrain">Bahrain</option>
+<option value="UAE">UAE</option>
+<option value="Saudi Arabia">Saudi Arabia</option>
+<option value="Oman">Oman</option>
+</select>
+<br>
+<label for="subject">Subject</label><br>
+<textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+<br>
+<input type="submit" name="submit" value="Submit">
+</form>
 </div>
+
+
 <div class="container">
 <h3>SOCIAL</h3>
 <i class="fab fa-facebook-square"></i>
@@ -150,14 +208,38 @@ Molestie faucibus hymenaeos quisque nostra!</p>
 <i class="fab fa-youtube"></i>
 <i class="fab fa-instagram"></i>
 </div>
-<div class="container">
-<h3>SHOP</h3>
-<img src="img/shop.jpg" alt="Img">
-</div>
+
 </div>
 </div>
 
+<div class="container bottomfooter">
+<div class="col-sm-4">
+<h3>LOCATION</h3>
+<iframe src="	https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.898636259301!2d77.63539211384365!3d12.978334618244345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16a30d631f93%3A0x908a5ca987d63664!2sChinmaya+Mission+Hospital+Rd%2C+Indiranagar%2C+Bengaluru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1545304360561" width="90%" height="210px" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+</div>
+<div class="col-sm-4">
+<h3>CONTACT US</h3>
+<p>Mobile : +91 98765 43211</p>
+<p>Office : +91 98765 43211</p>
+<p>Address : CMH Road, Indranagar,<br> Bangalore-560 000</p>
+<h3>SOCIAL</h3>
+<i class="fab fa-facebook-square"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-youtube"></i>
+<i class="fab fa-instagram"></i>
+</div>
+<div class="col-sm-4">
+<h3>FOLLOW BLOG VIA EMAIL</h3>
+<div class="">Enter your email address to follow this blog and receive notifications of new posts by email.
+
+<h3>Join 77 other followers</h3>
+<input type="text" name="email" style="width: 95%; padding: 1px 2px" placeholder="Enter your email address" value="" id="subscribe-field">
+<button class="button">FOLLOW</button>
+</div>
+
+</div>
+</div>
 
 
 
