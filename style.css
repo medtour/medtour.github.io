@@ -67,4 +67,8 @@ header {height :60px; position:absolute; right:0px; z-index:10;}
 .smedia { display:none;}
 }
 
-
+.bottomfooter {background-color:black; min-height:380px; overflow:hidden; width:100%; box-sizing:border-box; border-right:100px solid; border-left:100px solid;}
+.bottomfooter img {width:80%;}
+.bottomfooter div {color:white;}
+.button {  background-color: #ddd;  border: none; color: black; padding: 8px 15px; text-align: center; text-decoration: none; display:inline-block; margin: 4px 2px; cursor: pointer; border-radius: 6px;}
+.button:hover {  background-color: #f1f1f1;}
