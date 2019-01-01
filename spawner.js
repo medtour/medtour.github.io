@@ -1,7 +1,7 @@
 function spawnCall() {
 document.getElementById("head").innerHTML = 
 
-"<title>MedTour</title>" +
+"<title>MedForte</title>" +
 "<meta charset='UTF-8'>" +
 "<meta name='viewport' content='width=device-width, initial-scale=1'>" +
 "<link rel='stylesheet' href='purecss.css'>" +
@@ -27,7 +27,7 @@ document.getElementById("headercontent").innerHTML =
 document.getElementById("menutoggle").innerHTML = 
 
 
-"<div class='companyname'>MEDCARE<br><div>Wellcare Centre</div></div>" +
+"<div class='companyname'>MEDFORTE<br><div>Wellcare Centre</div></div>" +
 
 
 "<ul>" +
@@ -108,4 +108,40 @@ document.getElementById("footer").innerHTML =
 
 "</div>" ;
 
+document.getElementById("sidepanel").innerHTML = 
+
+"<div class='container'>" +
+"<h3>MAKE AN APPOINTMENT</h3>" +
+"<form action='' method='post'>" +
+"<label for='fname'>First Name</label><br>" +
+"<input type='text' id='fname' name='firstname' placeholder='Your name..'>" +
+"<br>" +
+"<label for='lname'>Last Name</label><br>" +
+"<input type='text' id='lname' name='lastname' placeholder='Your last name..' >" +
+"<br>" +
+"<label for='country'>Country</label><br>" +
+"<select id='country' name='country'>" +
+"<option value='Bahrain'>Bahrain</option>" +
+"<option value='UAE'>UAE</option>" +
+"<option value='Saudi Arabia'>Saudi Arabia</option>" +
+"<option value='Oman'>Oman</option>" +
+"</select>" +
+"<br>" +
+"<label for='subject'>Subject</label><br>" +
+"<textarea id='subject' name='subject' placeholder='Write something..'></textarea>" +
+"<br>" +
+"<input type='submit' name='submit' value='Submit'>" +
+"</form>" +
+"</div>" +
+
+
+"<div class='container'>" +
+"<h3>SOCIAL</h3>" +
+"<i class='fab fa-facebook-square'></i>" +
+"<i class='fab fa-twitter'></i>" +
+"<i class='fab fa-youtube'></i>" +
+"<i class='fab fa-instagram'></i>" +
+"</div>" ;
+
 }
+

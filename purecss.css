@@ -49,3 +49,6 @@ body {border:; width:; height:;}
 #comingsoon {background-size:auto 100vh; height:100vh;}
 }
 #comingsoon>p {text-align:center; display:block; margin:0px; color:white; font-size:40px; padding-top:150px;}
+
+.borderb {border:1px solid black;}
+.bordery {border:1px solid yellow;}
