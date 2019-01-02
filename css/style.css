@@ -1,37 +1,7 @@
-@import "https://fonts.googleapis.com/css?family=Josefin+Slab";
-
-
 .section-project {
-  font-family: "Josefin Slab";
   background-color: #222;
-  padding: 5px 0;
   position: relative;
-}
-
-.section__title, .section__subtitle {
-  text-align: center;
-  color: white;
-  display: block;
-}
-
-.section__title {
-  font-size: 3em;
-  line-height: 1;
-  margin: 0 0 20px;
-}
-
-.section__subtitle {
-  font-size: 1.2em;
-  line-height: 1.5;
-  opacity: .5;
-}
-.section__subtitle a {
-  color: inherit;
-}
-
-.project-carousel {
-  position: relative;
-  padding: 5px 0;
+  overflow:hidden;
 }
 
 .project-strip {
@@ -42,6 +12,7 @@
 .project-strip .project {
   cursor: pointer;
 }
+
 .project-strip img {
   max-width: 100%;
   width: 100%;
@@ -57,6 +28,9 @@
   top: 0;
   bottom: 0;
   margin: auto;
+  content: " ";
+  background-image: url("https://dl.dropboxusercontent.com/u/26808427/cdn/experiments/training/macbook-frame.png");
+  background-repeat: no-repeat;
 }
 .project-screen .project-detail {
   position: absolute;
@@ -68,16 +42,10 @@
   z-index: 1;
   background-color: #333;
 }
-.project-screen .screen-frame {
-  content: " ";
-  width: 768px;
-  height: 451px;
-  position: absolute;
-  background-image: url("https://dl.dropboxusercontent.com/u/26808427/cdn/experiments/training/macbook-frame.png");
-  background-repeat: no-repeat;
-}
+
 .project-screen .project {
   margin-right: -100%;
   float: left;
   cursor: move;
 }
+
