@@ -6,7 +6,66 @@
 
 <style>
 
+.firstblock {background-color:#ee6e12;border:0;margin-top:10px;color:white;}
+.center {height:439px; width:100%; background-position:center center;background-repeat:no-repeat;margin:auto;background-size: cover; }
+.secondblock {background-color:#626262;color:white;border:0;margin-top:10px;margin-bottom:10px;}
 
+.col-sm-6 {padding:0;}
+.col-sm-6>p,h2 {padding:10px 40px;text-align: justify;font-weight: 500;letter-spacing: .05em;}
+
+
+.border {border:0.1px solid;}
+
+h1 {padding-left:20px;}
+.contact {border:.5px solid; margin:10px 10px 0 10px; border-radius:10px; background-color:#fdf9f9;}
+.contact p{padding:5px 5px 5px 20px;}
+.call::before {background-image:url('img/call2.png');background-size: 25px 25px; display:inline-block; width: 25px; height: 25px; content:"";padding-right:8px;background-repeat:no-repeat;}
+.mail::before {background-image:url('img/mail2.png');background-size: 25px 25px; display:inline-block; width: 25px; height: 25px; content:""; padding-right:8px;background-repeat:no-repeat;}
+.designation::before {background-image:url('img/man2.png');background-size: 25px 25px; display:inline-block; width: 25px; height:25px; content:""; padding-right:8px; background-repeat:no-repeat;}
+.addrblock {width:100%; background-color:#52575b; color:#fff; margin:auto; margin-top:20px; box-sizing: border-box;
+    padding: 10px;}
+
+.mapcontain {max-width:600px;  margin:auto; margin-top:20px;}
+.map {max-width:650px; width:100%;height:550px;border:0;}
+
+
+.mailbox {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.bgcontact {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/doctor2.jpg"); min-height:calc(100vh - 82px); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;}
+.bgcontact>h1 {text-align:center; color:white;}
+
+
+.collapsible {background-color: #777; color: white; cursor: pointer; padding:10px 18px; width: 100%; border: none; text-align: left; outline: none; font-size: 15px; }
+.active, .collapsible:hover { background-color: #555;}
+.collapsible:after { content: '\002B'; color: white; font-weight: bold; float: right; margin-left: 5px;}
+.active:after { content: "\2212";}
+.content {  padding: 0 18px; max-height: 0; overflow: hidden; transition: max-height 0.2s ease-out; background-color: #f1f1f1;}
 
 
 </style>
@@ -20,7 +79,100 @@
 
 
 
-<div id="comingsoon"><p>Coming Soon</p></div>
+<div class="container bgcontact" style="border:0;">
+<h1>Contact-Us</h1>
+
+<div class="col-sm-4" style="margin:50px;">
+<div class="contact">
+<h2>Dr. Ayesha Taimur</h2>
+
+<p class="call">+91-9900489007</p>
+<p class="call">+91-9876543211</p>
+<p class="call">No 34, 1st floor, 11th cross, 1st stage, Indranagar, Bangalore 560038</p>
+<p class="mail">ayeshaheba@yahoo.com</p>
+<p class="designation">Founder and Chief Executive Officer</p>
+</div>
+</div>
+
+<div class="col-sm-6">
+<!-- <div class="contact">
+<h2>Mohammed Akmal</h2>
+
+<p class="call">00973-34371534</p>
+<p class="call">+91-9886878682</p>
+<p class="mail">akmal@nexrise-events.com</p>
+<p class="designation">Senior Project Manager & General Manager</p>
+</div> -->
+</div>
+
+</div>
+
+
+<div class="container" style="border:0; background-color:#f2f2f2;">
+<div class="col-sm-6">
+
+
+<div class="mapcontain">
+<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6462.490162491434!2d77.63639564761958!3d12.979574819046386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16bb30d62e25%3A0xb8f584999089a1e2!2s11th+Cross+Rd%2C+Bengaluru%2C+Karnataka!5e1!3m2!1sen!2sin!4v1546936072671" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+</div>
+
+
+</div>
+
+<div class="col-sm-6 mailbox">
+
+  <form action="http://free.allforms.mailjol.net/u/b82b72fa.php" method="post">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Bahrain">Bahrain</option>
+      <option value="UAE">UAE</option>
+      <option value="Saudi Arabia">Saudi Arabia</option>
+      <option value="Oman">Oman</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" name="submit" value="Submit">
+  </form>
+
+</div>
+</div>
+
+
+<h2>Frequently asked question</h2>
+<button class="collapsible">1. How can you help us?</button>
+<div class="content">
+
+</div>
+<button class="collapsible">How do I know the clinic or Hospital I am searching is verified?</button>
+<div class="content">
+
+</div>
+<button class="collapsible">I have some </button>
+<div class="content">
+
+</div>
+<button class="collapsible">How can I budget my treatment and travel</button>
+<div class="content">
+
+</div>
+<button class="collapsible"></button>
+<div class="content">
+
+</div>
+<button class="collapsible"></button>
+<div class="content">
+
+</div>
+
 
 
 
@@ -29,7 +181,22 @@
 
 
 <script src="myscripts.js"></script>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 
 <script src="spawner.js"></script>
 <script>spawnCall();</script>

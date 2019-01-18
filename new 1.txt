@@ -1,0 +1,431 @@
+
+
+
+<div class="ailmentcontainer">
+		<div class="container">
+                <br>
+                <h3 class="center text-center tge-head">Please choose Ailment</h3>
+                    <div class="clearfix" style="margin:auto;">
+                                                              <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/Opthalmology-300x147.jpg')">
+                                          <a href="../process/index1493.html?maid=252&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf004</i>&nbsp;Eye/Ophthalmology &#8211; طب وجراحة العيون</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>fas fa-stethoscope
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/wellness-300x180.jpg')">
+                                          <a href="../process/indexdae0.html?maid=233&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f1</i>&nbsp;Wellness &#8211; اللياقة</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_483047908-300x202.jpg')">
+                                          <a href="../process/indexc4cc.html?maid=235&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0fe</i>&nbsp;AESTHETIC MEDICINE</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_94752094-288x300.jpg')">
+                                          <a href="../process/index2a10.html?maid=271&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0fe</i>&nbsp;SPINE &#8211; العمود الفقري</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_410510296-300x202.jpg')">
+                                          <a href="../process/indexebc6.html?maid=238&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf21e</i>&nbsp;BARIATRIC SURGERY &#8211; جراحة السمنة</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/organ-transplantation-1-728-300x225.jpg')">
+                                          <a href="../process/index5ab7.html?maid=273&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f9</i>&nbsp;TRANSPLANT &#8211; زراعة الأعضاء</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/hospital-room-infrastructure.jpg1_-300x205.jpg')">
+                                          <a href="../process/index0428.html?maid=268&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf08a</i>&nbsp;REHABILITATION &#8211; العلاج الطبيعي</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_5622274-300x202.jpg')">
+                                          <a href="../process/index6a0b.html?maid=272&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f8</i>&nbsp;STEM CELL THERAPY &#8211; العلاج بالخلايا الجذعية</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_102191368-1-259x300.jpg')">
+                                          <a href="../process/index01d0.html?maid=275&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0fa</i>&nbsp;VASCULAR &#8211; الأوعية الدموية</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_359141690-300x300.jpg')">
+                                          <a href="../process/index58f6.html?maid=274&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf21e</i>&nbsp;UROLOGY &#8211; جراحة المسالك البولية</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/admin-ajax.php_-1-200x300.jpg')">
+                                          <a href="../process/index9914.html?maid=244&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0fe</i>&nbsp;FERTILITY AND IVF &#8211; الخصوبة وأطفال الأنابيب</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_256694242-241x300.jpg')">
+                                          <a href="../process/index84d6.html?maid=245&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f8</i>&nbsp;GASTROENTEROLOGY AND HEPATOLOGY</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_128888009-300x202.jpg')">
+                                          <a href="../process/indexf774.html?maid=258&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0fd</i>&nbsp;PAEDIATRIC SURGERY</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_249287623-300x202.jpg')">
+                                          <a href="../process/index910c.html?maid=256&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf21e</i>&nbsp;ENT OTORHINOLARYNGOLOGY الأنف والأذن والحنجرة</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_132304208-300x202.jpg')">
+                                          <a href="../process/indexbd38.html?maid=246&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f9</i>&nbsp;GENERAL SURGERY &#038; LAPROSCOPIC SURGERY &#8211; الجراحة العامة وجراحة المناظير</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_284499803-300x202.jpg')">
+                                          <a href="../process/index7de6.html?maid=240&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0fd</i>&nbsp;CHECK UP &#8211; الفحص الشامل</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_188711162-226x300.jpg')">
+                                          <a href="../process/index2aaa.html?maid=236&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f8</i>&nbsp;ALLERGY/IMMUNOLOGY الحساسية / علم المناعة</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/preventive-care-300x86.jpg')">
+                                          <a href="../process/index761d.html?maid=263&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f8</i>&nbsp;PREVENTIVE &#8211; الطب الوقائي</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/medical_genetics-300x199.jpg')">
+                                          <a href="../process/index8e94.html?maid=249&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0fd</i>&nbsp;MEDICAL GENETICS &#8211; علم الوراثة الطبية</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_299690342-300x202.jpg')">
+                                          <a href="../process/index8cf4.html?maid=257&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0fa</i>&nbsp;PAEDIATRIC PSYCHOLOGY علم النفس للأطفال</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_78972478-300x202.jpg')">
+                                          <a href="../process/index90cb.html?maid=259&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf08a</i>&nbsp;PAEDIATRICS</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_265969412-300x257.jpg')">
+                                          <a href="../process/index6d05.html?maid=260&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f1</i>&nbsp;PAIN MANAGEMENT التحكم بالألم</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('')">
+                                          <a href="../process/index72fc.html?maid=3609&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;">&nbsp;Gamma Knife Surgery  جراحة سكين غاما</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/palliative-care.jpg')">
+                                          <a href="../process/index1f38.html?maid=261&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf004</i>&nbsp;PALLIATIVE CARE الرعاية التلطيفية</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_206136706-300x202.jpg')">
+                                          <a href="../process/indexc032.html?maid=266&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0fa</i>&nbsp;PSYCHOLOGY الطب النفسي</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_305984453-1-300x239.jpg')">
+                                          <a href="../process/index37e0.html?maid=267&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0fd</i>&nbsp;RADIOLOGY- DIAGNOSTIC TESTS AND PROCEDURES الأشعة وإجراءات التشخيص</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_356212016-300x202.jpg')">
+                                          <a href="../process/indexce24.html?maid=269&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f1</i>&nbsp;RESPIRATORY MEDICINE &#8211; طب العلاج التنفسي</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_376434412-300x202.jpg')">
+                                          <a href="../process/indexa82b.html?maid=270&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf004</i>&nbsp;RHEUMATOLOGY الروماتيزم</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('')">
+                                          <a href="../process/index86dc.html?maid=3790&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;">&nbsp;Insulin Pump Therapy &#8211; العلاج بمضخة الانسولين</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_372247498-221x300.jpg')">
+                                          <a href="../process/index0af6.html?maid=237&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f9</i>&nbsp;ANDROLOGY الذكورة</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_370975286-300x202.jpg')">
+                                          <a href="../process/index7c5c.html?maid=241&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf08a</i>&nbsp;DERMATOLOGY الجلدية</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_481442536-300x202.jpg')">
+                                          <a href="../process/indexbf25.html?maid=276&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0fd</i>&nbsp;WOUND CARE AND HYPERBARIC MEDICINE العناية بالجروج وطب ارتفاع الضغط</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_187088732-300x212.jpg')">
+                                          <a href="../process/index5d14.html?maid=242&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f1</i>&nbsp;ENDOCRINOLOGY الغدد</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/nuclear-medicine-ch.jpg')">
+                                          <a href="../process/indexa8ad.html?maid=251&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f1</i>&nbsp;NUCLEAR MEDICINE الطب النووي</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                                                    <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_98641478-300x202.jpg')">
+                                          <a href="../process/index4407.html?maid=225&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf004</i>&nbsp;Cardiology &#8211; طب وجراحة القلب</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/Nephrology_final-300x200.jpg')">
+                                          <a href="../process/indexfef5.html?maid=226&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0fe</i>&nbsp;Nephrology &#8211; طب الكلى</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/Oncology-300x153.jpg')">
+                                          <a href="../process/index7839.html?maid=227&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f8</i>&nbsp;Cancer / Oncology &#8211; علم الدم والأورام</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_142427935-300x202.jpg')">
+                                          <a href="../process/indexeb55.html?maid=3178&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;">&nbsp;Dental &#8211; طب وجراحة الأسنان</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_194985809-300x202.jpg')">
+                                          <a href="../process/indexd081.html?maid=228&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f9</i>&nbsp;Gynaecology &#8211; طب النساء</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/Neurology_Final-300x214.jpg')">
+                                          <a href="../process/indexe0eb.html?maid=250&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf08a</i>&nbsp;Neurology &#8211; طب وجراحة الأعصاب</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/ortho-300x300.jpg')">
+                                          <a href="../process/indexbe7a.html?maid=255&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0f9</i>&nbsp;Orthopaedics &#8211; جراحة العظام</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                                            <div class="col-md-3" style="padding:0">
+                                        <div class="fillBox front-item-div" style="background-image:url('wp-content/uploads/shutterstock_299665025-1-300x202.jpg')">
+                                          <a href="../process/index8add.html?maid=231&amp;step=1">
+                                            <div style="background:rgba(0,0,0,0.5);height: 100%;">
+                                              <h4 style="color:#fff;"><i class="fas fa-stethoscope" style="width:50px;height:50px;color:#fff;">&#xf0fd</i>&nbsp;Cosmetic and Plastic &#8211; الجراحة التجميلية</h4>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+
+                                                          </div>
+        </div>
+        </div>

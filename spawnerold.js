@@ -1,4 +1,3 @@
-function spawnCall() {
 document.getElementById("head").innerHTML = 
 
 "<title>MedForte</title>" +
@@ -90,7 +89,7 @@ document.getElementById("footer").innerHTML =
 "<h3>CONTACT US</h3>" +
 "<p>Mobile : +91 98765 43211</p>" +
 "<p>Office : +91 98765 43211</p>" +
-"<p>Address : CMH Road, Indranagar,<br> Bangalore-560 000</p>" +
+"<p>Address : No 34, 1st floor, 11th cross,<br>1st stage, Indranagar,<br>Bangalore-560 038</p>" +
 "<h3>SOCIAL</h3>" +
 "<i class='fab fa-facebook-square'></i>" +
 "<i class='fab fa-twitter'></i>" +
@@ -116,8 +115,11 @@ document.getElementById("sidepanel").innerHTML =
 "<label for='fname'>First Name</label><br>" +
 "<input type='text' id='fname' name='firstname' placeholder='Your name..'>" +
 "<br>" +
-"<label for='lname'>Last Name</label><br>" +
-"<input type='text' id='lname' name='lastname' placeholder='Your last name..' >" +
+"<label for='lname'>Email Address</label><br>" +
+"<input type='text' id='lname' name='lastname' placeholder='Email Address..' >" +
+"<br>" +
+"<label for='lname'>Contact No.</label><br>" +
+"<input type='text' id='lname' name='lastname' placeholder='Contact Number..' >" +
 "<br>" +
 "<label for='country'>Country</label><br>" +
 "<select id='country' name='country'>" +
@@ -125,10 +127,12 @@ document.getElementById("sidepanel").innerHTML =
 "<option value='UAE'>UAE</option>" +
 "<option value='Saudi Arabia'>Saudi Arabia</option>" +
 "<option value='Oman'>Oman</option>" +
+"<option value='Africa'>Africa</option>" +
+"<option value='India'>India</option>" +
 "</select>" +
 "<br>" +
 "<label for='subject'>Subject</label><br>" +
-"<textarea id='subject' name='subject' placeholder='Write something..'></textarea>" +
+"<textarea id='subject' name='subject' placeholder='Your Query..'></textarea>" +
 "<br>" +
 "<input type='submit' name='submit' value='Submit'>" +
 "</form>" +
@@ -142,6 +146,3 @@ document.getElementById("sidepanel").innerHTML =
 "<i class='fab fa-youtube'></i>" +
 "<i class='fab fa-instagram'></i>" +
 "</div>" ;
-
-}
-

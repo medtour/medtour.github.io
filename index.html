@@ -3,6 +3,9 @@
 <head>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js'></script>
 <div id="head"></div>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <style>
 
@@ -33,20 +36,13 @@
 
 
 
-
-.block3 {width:90%; margin:auto;}
-.block3>h2 {text-align:center;}
-.block3>p {text-align:center;}
-.block3>div>h3 {margin:auto; text-align:center; padding-top:15px; padding-bottom:15px;}
-.block3>div>p { padding-left:0px; padding-top:0px; padding-bottom:30px; margin:auto; text-align:center;}
-.block3>div>img {display:block; height:200px;width:330px;}
-
-.parallax2 {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/img2.jpg"); min-height:calc(100vh); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
-.parallax2>h2 {color:white; text-align:center;font-size: 47px;font-family: 'Montserrat',Arial,sans-serif;font-weight: 700;}
+.parallax2 {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/hospital.jpg"); min-height:calc(100vh); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
+.parallax2>h2 {color:white; text-align:center;font-size: 47px;font-family: 'Montserrat',Arial,sans-serif;font-weight: 700; margin-top:120px;}
 .parallax2>p {color:white; text-align:center; max-width:700px; margin:auto;font-family: 'Merriweather',Times,serif;font-size: 18px;}
 
 .parallax2>div {background-color:white; text-align:center; max-width:400px; margin:auto; margin-top:50px; border:8px solid #383838; border-color:;}
 .parallax2>div>p { margin-top:0px;}
+.parallax2 img {width:100%;}
 
 .heart {  background-color: #ec0843; display: inline-block; height: 30px; margin: 0 10px; position: relative; top:-10px; transform: rotate(-45deg); width: 30px;}
 .heart:before,.heart:after { content: ""; background-color: #ec0843; border-radius: 50%; height: 30px; position: absolute; width: 30px;}
@@ -67,26 +63,59 @@
 
 
 
-.button {background-color: #ddd; border: none; color: black; padding: 10px 20px; text-align: center; text-decoration: none; display:inline-block; margin: 4px 2px; cursor: pointer; border-radius: 16px;}
-.button:hover { background-color: #f1f1f1;}
+.serviceblock {width:100%; padding:20px 50px; height:auto; text-align:center;}
+.medimg {background-repeat:no-repeat; background-position:center; height:150px; width:calc(25% - 40px); position:relative; float:left; margin:20px; cursor:pointer; -webkit-transition: all 2s ease; /* Safari */ transition: all 2s ease; background-size:100% 100%; display:;}
+.medimg:hover { background-size:130% 130%;}
+.treatments {background-color:rgba(0, 0, 0, 0.5); height:100%; width:100%; display:block;}
+.medimg h4 {position:absolute; bottom:0px; height:40%; width:100%; color:white; background-color:rgba(0, 0, 0, 0.5); padding:0px; margin:0px;}
+/* on tablet */
+@media only screen and (max-width:1080px) {
+.medimg {width:calc(50% - 40px); margin:20px;}
+}
+/* on mobile */
+@media only screen and (max-width:768px) {
+.medimg {width:calc(100% - 20px);}
+.service>.container {width:100%;}
+}
 
+
+
+.buttonholder {height:60px; overflow:hidden; margin:auto; width:120px; }
+.button {background-color: #ddd; border: none; color: black; padding: 10px 20px; text-align: center; text-decoration: none; display:inline-block; margin: 4px 2px; cursor: pointer; border-radius: 16px; transition:all 1s; border:0.5px solid white;}
+.button:hover { background-color: #f1f1f1; border:0.5px solid blue; text-decoration:none;}
+
+
+.bootcontainer {display:block; overflow:hidden; width:100%; min-height:500px; background-color:black;}
+.bootcontainer>.container {overflow:hidden;}
+.carousel { margin-bottom: 0;  padding: 0 40px 30px 40px;}
+/* The controlsy */
+.carousel-control {left: -12px; height: 40px;width:40px; background: none repeat scroll 0 0 #222222; border: 4px solid #FFFFFF; border-radius: 23px 23px 23px 23px; margin-top:90px;}
+.carousel-control.right {right: -12px;}
+/* The indicators */
+.carousel-indicators {right: 50%;top: auto;bottom: -10px;margin-right: -19px;}
+/* The colour of the indicators */
+.carousel-indicators li {background: #cecece;}
+.carousel-indicators .active {background: #428bca;}
+
+.row>h2 {color:white; text-align:center;}
+.row>.col-md-3>h3 {height:50px; color:white; background-color:black; text-align:center;}
 
 </style>
 </head>
 <body>
 
 <header id="headercontent"></header>
-<div id="menutoggle" class="nav hide"></div>
+<div id="menutoggle" class="nav"></div>
 
 <div id="smedia" class="smedia"></div>
 
-<div class="parallax1 container">
+<div class="parallax1 container" style="width:100%; padding:0; margin:0; background-color:black;">
 <h1>India's Leading Medical Tourism Company</h1>
 <p>World Class Health Services</p>
 </div>
 
 
-<div class="block2 container">
+<div class="block2 container" style="width:100%; padding:0; margin:0; background-color:black;">
 
 <div class="col-sm-8">
 <h2>WELCOME TO MEDFORTE</h2>
@@ -106,51 +135,145 @@ Promising enriching experience to medical tourists with a range of quality-prove
 
 </div>
 
-
-<div class="container block3">
+<div class="serviceblock">
 <h2>OUR SERVICES</h2>
-<div class="col-sm-4">
-<img src="img/knee.jpg" alt="Img">
-<h3>The key to Better Knees</h3>
+<div class="medimg" style="background-image:url('img/treatments/ent.jpg')">
+<a class="treatments" href="#">
+<h4><i class="fas fa-stethoscope"></i>&nbsp;ENT OTORHINOLARYNGOLOGY الأنف والأذن والحنجرة</h4>
+</a>
 </div>
 
-<div class="col-sm-4">
-<img src="img/colonimg.jpg" alt="Img">
-<h3>Colon Therapy</h3>
+<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_98641478-300x202.jpg')">
+<a class="treatments" href="#">
+<h4><i class="fas fa-stethoscope"></i>&nbsp;Cardiology &#8211; طب وجراحة القلب</h4>
+</a>
 </div>
 
-<div class="col-sm-4">
-<img src="img/spine.jpeg" alt="Img">
-<h3>Spine - Walk Out Feeling better</h3>
-</div>
-</div>
-
-<div class="container block3">
-<div class="col-sm-4">
-<img src="img/rehab.jpg" alt="Img">
-<h3>Rehabilitation</h3>
+<div class="medimg" style="background-image:url('img/treatments/stemcell.jpg')">
+<a class="treatments" href="#">
+<h4><i class="fas fa-stethoscope"></i>&nbsp;STEM CELL THERAPY &#8211; العلاج بالخلايا الجذعية</h4>
+</a>
 </div>
 
-<div class="col-sm-4">
-<img src="img/stem.jpg" alt="Img">
-<h3>Stem Cells Therapy</h3>
+<div class="medimg" style="background-image:url('img/treatments/urology.jpg')">
+<a class="treatments" href="#">
+<h4><i class="fas fa-stethoscope"></i>&nbsp;UROLOGY &#8211; جراحة المسالك البولية</h4>
+</a>
 </div>
 
-<div class="col-sm-4">
-<img src="img/cosmetic.jpg" alt="Img">
-<h3>Cosmetic Dermat</h3>
-</div>
-<p class="button">View More</p>
+<div class="medimg" style="background-image:url('wp-content/uploads/Neurology_Final-300x214.jpg')">
+<a class="treatments" href="#">
+<h4><i class="fas fa-stethoscope"></i>&nbsp;Neurology &#8211; طب وجراحة الأعصاب</h4>
+</a>
 </div>
 
-<div class="parallax2 container">
-<h2>Dr. Ayesha Fathima</h2>
-<p>BDS FAGE ( MHA)</p>
+<div class="medimg xs-hidden" style="background-image:url('wp-content/uploads/shutterstock_78972478-300x202.jpg')">
+<a class="treatments" href="#">
+<h4><i class="fas fa-stethoscope"></i>&nbsp;PAEDIATRICS</h4>
+</a>
+</div>
+
+<div class="medimg xs-hidden" style="background-image:url('wp-content/uploads/shutterstock_94752094-288x300.jpg')">
+<a class="treatments" href="#">
+<h4><i class="fas fa-stethoscope"></i>&nbsp;SPINE &#8211; العمود الفقري</h4>
+</a>
+</div>
+
+<div class="medimg xs-hidden" style="background-image:url('wp-content/uploads/organ-transplantation-1-728-300x225.jpg')">
+<a class="treatments" href="#">
+<h4><i class="fas fa-stethoscope"></i>&nbsp;TRANSPLANT &#8211; زراعة الأعضاء</h4>
+</a>
+</div>
+
+<div class="medimg xs-hidden" style="background-image:url('wp-content/uploads/ortho-300x300.jpg')">
+<a class="treatments" href="#">
+<h4><i class="fas fa-stethoscope"></i>&nbsp;Orthopaedics &#8211; جراحة العظام</h4>
+</a>
+</div>
+
+<div class="medimg xs-hidden" style="background-image:url('wp-content/uploads/shutterstock_483047908-300x202.jpg')">
+<a class="treatments" href="#">
+<h4><i class="fas fa-stethoscope"></i>&nbsp;AESTHETIC MEDICINE</h4>
+</a>
+</div>
+
+<div class="medimg xs-hidden" style="background-image:url('wp-content/uploads/Opthalmology-300x147.jpg')">
+<a class="treatments" href="#">
+<h4><i class="fas fa-stethoscope"></i>&nbsp;Eye/Ophthalmology &#8211; طب وجراحة العيون</h4>
+</a>
+</div>
+
+<div class="medimg xs-hidden" style="background-image:url('wp-content/uploads/shutterstock_410510296-300x202.jpg')">
+<a class="treatments" href="#">
+<h4><i class="fas fa-stethoscope"></i>&nbsp;BARIATRIC SURGERY &#8211; جراحة السمنة</h4>
+</a>
+
+</div>
+<a class="button">View More</a>
+</div>
+
+
+
+<div class="parallax2 container" style="width:100%; padding:0; margin:0; background-color:black; color:black;">
+<h2>Dr. Ayesha Taimur</h2>
+<p>BDS, FAGE ( MHA)</p>
 <div>
 <div class="heart"></div><br>
 <img src="img/doctor.jpg" alt="Img">
 </div>
 </div>
+
+<div class="bootcontainer">
+<div class="container">
+    <div class="row"><h2>Our Hospitals</h2>
+		<div class="col-md-12">
+                <div id="Carousel" class="carousel slide">
+                 
+                <ol class="carousel-indicators">
+                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#Carousel" data-slide-to="1"></li>
+                    <li data-target="#Carousel" data-slide-to="2"></li>
+                </ol>
+                 
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    
+                <div class="item active">
+                	<div class="row">
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/fortis.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>FORTIS HOSPITAL</h3></div>
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/manipal.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>MANIPAL HOSPITAL</h3></div>
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/columbia.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>COLUMBIA HOSPITAL</h3></div>
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/sakra.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>SAKRA HOSPITAL</h3></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                <div class="item">
+                	<div class="row">
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/apollo.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>APOLLO HOSPITAL</h3></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/vikram.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>VIKRAM HOSPITAL</h3></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/hosmat.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>HOSMAT HOSPITAL</h3></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/hcg.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>HCG HOSPITAL</h3></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                <div class="item">
+                	<div class="row">
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/narana.png" alt="Image" style="height:250px; width:250px;"></a><h3>NARANA HOSPITAL</h3></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/agarwals.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>AGARWALS HOSPITAL</h3></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/global.jpeg" alt="Image" style="height:250px; width:250px;"></a><h3>GLOBAL HOSPITAL</h3></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/rainbow.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>RAINBOW HOSPITAL</h3></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                </div><!--.carousel-inner-->
+                  <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
+                  <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
+                </div><!--.Carousel-->
+                 
+		</div>
+	</div>
+	</div>
+</div><!--.container-->
 
 <div class="container block45">
 <div class="col-sm-9">
@@ -164,7 +287,7 @@ Promising enriching experience to medical tourists with a range of quality-prove
 <iframe width="560" height="315" 
 src="https://www.youtube.com/embed/VvYOtZU44Fc?start=22" >
 </iframe>
-<h3>DOCTOR AYESHA</h3>
+<h3>DOCTOR AYESHA TAIMUR</h3>
 </div>
 </div>
 <div class="container block4">
@@ -185,15 +308,31 @@ src="https://www.youtube.com/embed/VvYOtZU44Fc?start=22" >
 
 </div>
 
-<div id="footer" class="container bottomfooter"></div>
+<div id="footer" class="container bottomfooter" style="width:100%; padding:0; margin:0; background-color:black; color:black;"></div>
 
+<script>
 
+$(document).ready(
+function() {
+if( $(window).width() > 768 ) { $('#menutoggle').show(); }
+else {}
+
+if( $(window).width() < 768 ) { $('#menutoggle').hide(); }
+else {}
+}
+)
+
+$(window).resize(function() {
+if( $(window).width() > 768 ) { $('#menutoggle').show(); }
+else {}
+
+if( $(window).width() < 768 ) { $('#menutoggle').hide(); }
+else {}
+});
+
+</script>
 
 <script src="myscripts.js"></script>
-
-
-<script src="spawner.js"></script>
-<script>spawnCall();</script>
 
 <script>
 
@@ -201,6 +340,14 @@ setTimeout(function (){
 document.getElementById("index").classList.add("active");
 }, 1000); // How long do you want the delay to be (in milliseconds)?
 
+</script>
+
+<script>
+$(document).ready(function() {
+    $('#Carousel').carousel({
+        interval: 3000
+    })
+});
 </script>
 
 </body>

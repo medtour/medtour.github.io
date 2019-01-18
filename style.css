@@ -22,7 +22,7 @@ header {height :60px; position:absolute; right:0px; z-index:10;}
 .companyname>div {font-style:italic; font-weight: 600;}
 
 .nav {border:0; overflow:hidden; width:100%; background-color:black; z-index:100;}
-.nav>ul {list-style-type:none; margin:0; padding:0; overflow:hidden; width:615px;margin:; float:right; border:}
+.nav>ul {list-style-type:none; margin:0; padding:0; overflow:hidden; width:;margin:; float:right; border:}
 .nav>ul>li {float:left;  display:block; }
 .nav a {padding:30px 20px; display:block; background-color:black;position: relative;z-index:2;overflow:hidden;color:white;text-decoration:none; }
 .nav a::after {position: absolute; content: ''; top:0; left: 50%; width: 0;  height: 100%;  background-color:#181818; transform-origin:center;  transition:0.25s ease;  z-index:-1;}

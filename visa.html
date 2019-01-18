@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js'></script>
+<div id="head"></div>
+
+<style>
+.visadetail1, .visadetail2, .visadetail3, .visadetail4, .visadetail5, .visadetail6  {display:none;}
+.banner {width:100%;}
+.list1 {width:80%; height:500px; overflow:auto; margin:auto; background-color:pink;}
+h1, h3 {text-align:center;}
+
+.visapanel { background-color: #111; colot:white; display:block;}
+.visapanel a { color:white; padding:10px 0px; display:block; cursor:pointer;}
+.visapanel a:hover { background-color:brown;}
+
+/* on tablet */
+@media only screen and (max-width:1080px) {
+.hideonxs {display:none}
+}
+
+</style>
+</head>
+<body>
+
+<header id="headercontent"></header>
+<div id="menutoggle" class="nav hide"></div>
+
+<div id="smedia" class="smedia"></div>
+
+<img class="banner" src="img/taj-banner.jpg">
+<div class="container">
+<div class="col-sm-3">
+<div class="visapanel">
+<ul>
+<li><a onclick="v1()">General Visa</a> </li>
+<li><a onclick="v2()">e-Tourist VISA (eTV)</a></li>
+<li><a onclick="v3()">Tourist Group Visa on Arrival</a></li>
+<li><a onclick="v4()">Indian Embassies in Abroad</a></li>
+<li><a onclick="v5()">Foreign Embassies and Consulates in India</a></li>
+</ul>
+</div>
+<div id="sidepanel" class="block5 hideonxs"></div>
+</div>
+
+<div id="visa1" class="col-sm-9 visadetail1">
+
+<h1>General India Visa </h1>
+   
+<p>The government of India promotes the economic interests of the Indian business community and creates awareness about India through its Indian embassies and Indian consulates. At the nearest Indian consulate or Indian embassy in your country you can avail the following consular services:</p>
+
+<ul class="ul1">
+<li>Visa services</li>
+<li>PIO services</li>
+<li>OCI services</li>
+<li>OCI miscellaneous services</li>
+<li>Passport services</li>
+<li>Miscellaneous services</li></ul>
+
+
+<h3><strong>List of Indian embassies &amp; Indian consulates</strong></h3>
+
+<p>Here is a complete list of the various Indian embassies situated across the world. Visit the website of your country to find out more details about the address, telephone number, fax number, email address and office timings. All you need to do is to visit the nearest Indian embassy or Indian consulate in your country to get a valid Indian business visa.</p>
+
+
+<div class="list1">
+<ul class="ul1" style="float:left; width:45%;">
+
+<li>Afghanistan: https://meakabul.nic.in/</li>
+<li>Algeria: https://www.indianembassy.dz/</li>
+<li>Angola</li>
+<li>Argentina: https://www.indembarg.org.ar/</li>
+<li>Armenia: https://www.indianembassy.am/</li>
+<li>Australia: https://www.indembarg.org.ar/</li>
+<li>Azerbaijan</li>
+<li>Bahrain: https://www.indianembassybahrain.com/</li>
+<li>Bangladesh: https://www.hcidhaka.org/</li>
+<li>Belarus: https://www.indembminsk.org/</li>
+<li>Belgium: https://www.indembassy.be/</li>
+<li>Bhutan: https://www.indianembassythimphu.bt/</li>
+<li>Botswana: https://www.highcommissionofindia.org.bw/</li>
+<li>Brazil: https://www.indiaconsulate.org.br/</li>
+<li>Brunei Darussalam: https://www.hcindiabrunei.org.bn/</li>
+<li>Bulgaria: https://www.indembsofia.org/</li>
+<li>Cambodia</li>
+<li>Canada: https://www.hciottawa.ca/</li>
+<li>Chile: https://www.embajadaindia.cl/</li>
+<li>China: https://www.indianembassy.org.cn/</li>
+<li>Colombia: https://www.embajadaindia.org/</li>
+<li>Congo</li>
+<li>Costa Rica</li>
+<li>Cote D'Ivoire: https://www.indemabj.com/</li>
+<li>Croatia: https://www.indianembassy.hr/</li>
+<li>Cuba: https://www.indembassyhavana.cu/</li>
+<li>Cyprus: https://www.hcinicosia.org.cy/</li>
+<li>Czech Republic: https://www.india.cz/</li>
+<li>Denmark: https://www.indian-embassy.dk/</li>
+<li>Ecuador</li>
+<li>Egypt: https://www.indembcairo.com/</li>
+<li>Ethiopia: https://www.indianembassy.gov.et/</li>
+<li>Fiji</li>
+<li>Finland</li>
+<li>France: https://www.ambinde.fr/</li>
+<li>Germany: https://www.indianembassy.de/</li>
+<li>Ghana: https://www.indiahc-ghana.com/</li>
+<li>Greece: https://www.indianembassy.gr/</li>
+<li>Guyana</li>
+<li>Hungary: https://www.indianembassy.hu/</li>
+<li>Indonesia: https://www.congendiamedan.or.id/</li>
+<li>Iran: https://www.indianembassy-tehran.com/</li>
+<li>Iraq</li>
+<li>Ireland</li>
+<li>Israel</li>
+<li>Italy: https://www.indianembassy.it/</li>
+<li>Jamaica: https://www.hcikingston.com/</li>
+<li>Japan: https://www.embassyofindiajapan.org/</li>
+<li>Jordan: https://www.indembassy.org.jo/</li>
+<li>Kazakhstan: https://www.indembassy.kz/</li>
+<li>Kenya: https://www.hcinairobi.co.ke/</li>
+<li>Korea: https://www.indembassy.or.kr/</li>
+<li>Kuwait: https://www.indembkwt.org/</li>
+<li>Kyrgyzstan</li>
+<li>Lao People's Republic: https://www.indemblao.nic.in/</li>
+<li>Lebanon</li>
+<li>Liberia: https://www.indembtrip.org/</li>
+<li>Madagascar</li>
+<li>Malaysia: https://www.indianhighcommission.com.my/</li>
+<li>Maldives</li>
+<li>Malta</li>
+<li>Mauritius: https://indiahighcom.intnet.mu/</li>
+<li>Mexico: https://www.indembassy.org/</li>
+<li>Mongolia: https://www.indianembassy.mn/</li>
+<li>Morocco: https://www.indianembassyrabat.com/</li>
+<li>Mozambique: https://www.hicomind-maputo.org/</li>
+<li>Myanmar: https://www.indiaembassy.net.mm/</li>
+<li>Namibia: https://www.highcommissionofindia.web.na/</li>
+<li>Nepal: https://www.indianembassy.org.np/</li>
+<li>Netherlands: https://www.indianembassy.nl/</li>
+<li>New Zealand: https://www.hicomind.org.nz/</li>
+<li>Nigeria: https://www.indianhcabuja.com/</li>
+<li>Norway: https://www.indemb.no/</li>
+<li>Oman: https://www.indemb-oman.org/</li>
+<li>Pakistan</li>
+<li>Papua New Guinea</li>
+<li>Peru: https://www.indembassy.org.pe/</li>
+<li>Philippines: https://www.embindia.org.ph/</li>
+<li>Poland: https://www.indianembassy.pl/</li>
+<li>Portugal: https://www.indembassy-lisbon.org/</li>
+<li>Qatar: https://www.indianembassyqatar.org/</li>
+<li>Republic of Panama: https://www.indempan.org/</li>
+<li>Republic of Yemen: https://www.eoisanaa.com.ye/</li>
+<li>Romania: https://www.embassyofindia.ro/</li>
+<li>Russia: https://www.indianembassy.ru/</li>
+<li>Saudi Arabia: https://www.indianembassy.org.sa/</li>
+<li>Senegal: https://www.ambassadeinde.sn/</li>
+<li>Serbia: https://www.embassyofindiabelgrade.org/</li>
+<li>Seychelles: https://www.seychelles.net/hicomind</li>
+<li>Singapore: https://www.hcisingapore.com/</li>
+<li>Slovak Republic: https://www.indianembassy.sk/</li>
+<li>South Africa: https://www.indiainsouthafrica.com/</li>
+<li>Spain: https://www.embassyindia.es/</li>
+<li>Sri Lanka: https://www.hcicolombo.org/</li>
+<li>Sudan: https://www.indembsdn.com/</li>
+<li>Suriname: https://www.indembassysuriname.com/</li>
+<li>Sweden: https://www.indianembassy.se/</li>
+<li>Switzerland: https://www.indembassybern.ch/</li>
+<li>Syrian Arab Republic</li>
+<li>Tajikistan: https://www.indianembassy.tj/</li>
+<li>Tanzania: https://www.hcindiatz.org/</li>
+<li>Thailand: https://www.indianembassy.gov.in/bangkok</li>
+<li>Tunisia</li>
+<li>Turkey: https://www.cgiistanbul.org/</li>
+<li>Turkmenistan: https://www.indianembassy-tm.org/</li>
+<li>Uganda</li>
+<li>Ukraine: https://www.indianembassy.org.ua/</li>
+<li>United Arab Emirates: https://www.indembassyuae.org/</li>
+<li>United Kingdom: https://hcilondon.in/</li>
+<li>United States of America: https://www.indianembassy.org/</li>
+<li>Uzbekistan: https://www.indembassy.uz/</li>
+<li>Venezuela: https://www.embindia.org/</li>
+<li>Vietnam</li>
+<li>Zambia: https://www.hcizambia.com/</li>
+<li>Zimbabwe</li></ul>
+</div>
+<p>Please visit <a href="https://india.gov.in/overseas/embassy_detail.php" target="_blank" rel="nofollow">https://india.gov.in/overseas/embassy_detail.php</a> to find out more details about the various Indian missions across the world.</p>
+
+</div>
+
+<div id="visa2" class="col-sm-9 visadetail2">
+        <h1>e-TOURIST VISA (Indian Visa on Arrival) </h1>
+       
+  
+					  <p>The government of India promotes the economic interests of the Indian business community and creates awareness about India through its Indian embassies and Indian consulates. At the nearest Indian consulate or Indian embassy in your country you can avail the following consular services:</p>
+					
+    <ul class="ul1">
+	<li>Visa services</li>
+<li>    PIO services</li>
+<li>    OCI services</li>
+<li>    OCI miscellaneous services</li>
+<li>    Passport services</li>
+<li>    Miscellaneous services</li></ul>
+
+<p><strong>List of Indian embassies &amp; Indian consulates</strong></p>
+<p>Here is a complete <a href="indian-embassies-in-abroad.html">list of the various Indian embassies situated across the world</a>. Visit the website of your country to find out more details about the address, telephone number, fax number, email address and office timings. All you need to do is to visit the nearest Indian embassy or Indian consulate in your country to get a valid Indian business visa.</p>
+
+<p><strong>Introduction</strong></p>
+<p>Government of India has introduced e-Tourist Visa Facility (eTV) scheme for the following countries: Australia, Brazil, Cambodia, Cook Islands, Djibouti, Fiji, Finland, Germany, Indonesia, Israel, Japan, Jordan, Kenya, Kiribati, Laos, Luxembourg, Marshall Islands, Mauritius, Mexico, Micronesia, Myanmar, Nauru, New Zealand, Niue Island, Norway, Oman, Palau, Palestine, Papua New Guinea, Philippines, Republic of Korea, Russia, Samoa, Singapore, Solomon Islands,Thailand, Tonga, Tuvalu, UAE, Ukraine, USA, Vanuatu and Vietnam. </p>
+
+<p>The eTV is allowed for a maximum validity of 30 days with single entry facility by the Immigration Officers at  Delhi, Mumbai, Chennai, Kolkata, Hyderabad, Bengaluru, Kochi, Thiruvananthapuram and Goa airports. eTV is allowed for a maximum of two
+times in a calendar year to a foreigner with a minimum gap of two
+months between two visits. eTV shall be non-extendable and
+non-convertible.</p>
+
+<p>The foreigners of above mentioned countries may avail of
+eTV for a period up to 30 days for tourism, medical treatment,
+casual business or to visit friends/relatives, etc. The eTV
+facility is not applicable to the holders of Diplomatic/Official
+Passports. Further, eTV shall not be granted to the foreigners
+who have permanent residence or occupation in India. Such
+persons can visit India on normal visa, as applicable.</p>
+
+<p><strong>Eligibility</strong></p>
+ <ul class="ul1">
+<li> International Tourists who are  travelling to India with the motto of meeting friends or relatives,  sightseeing, recreation, medical treatment or casual business meets.</li>
+<li>Passport must have validity of six  months</li>
+<li>International Travellers should carry  return ticket or onward journey ticket, and they must have sufficient money  with them to spend during her/his stay in India.</li>
+<li>International Tourists with Pakistani  Passport or Pakistani origin have to apply for regular Visa at Indian Mission.</li>
+<li>Not available to Official / Diplomatic  Passport Holders.</li></ul>
+  
+  
+<p><strong>Instructions  for e-Tourist Visa Facility  </strong></p>
+  
+   <ul class="ul1">
+ <li> Applicants of the countries eligible for  this criterion may apply online minimum 4 days in advance of the date of  arrival with a window of 30 days.</li>
+ 
+  <li> For Example: If one is applying on 1st  Dec then s/he can select arrival date from 5th Dec to 4th  Jan.</li>
+  
+   <li> Applicant has to upload a latest front  facing photograph with white background along with the photo page of passport  having personal details like name, date of birth, expiry date, nationality etc.  However, the confirmation of the application is subject to rejection if the  uploaded document is not clear or as per specification.</li>
+   
+ <li> TVOA or Tourist Visa on Arrival charge  is US $ 60/- per passenger excluding interchange charge for debit/credit cards.  Tourists have to pay the fees 4 days in advance before the expected date of  travel filled by his/her or else the application will not be processed.</li>
+ 
+  <li> The fees for eTV is non-refundable.</li>
+  
+   <li> Applicant should carry a copy of ETA (Electronic  Travel Authorisation) while travelling to India.</li>
+   
+ <li> Biometric Details of the traveller will  be collected compulsorily at Immigration on arrival in India.</li>
+ 
+ <li> The validity of Visa will be 30 days from  the date of arrival in India.</li>
+ 
+  <li> ETA is valid to let the travellers enter  into the country through 9 reputed airports of the country, i.e, Chennai,  Bangalore, Delhi, Kolkata, Cochin, Goa, Mumbai, Hyderabad &amp; Trivandrum.</li>
+  
+   <li> This facility is available in addition  to the existing visa service.</li>
+   
+   <li> Tourist Visa on Arrival (eTV) is  allowed for a maximum of two visits in a calendar year.</li>
+   
+   <li> eTV once issued, on arrival is  non-convertible, non-extendable &amp; not valid for visiting Cantonment and <a href="http://mha1.nic.in/foreigDiv/PAP.html" rel="nofollow" target="_blank">Protected/Restricted</a> areas.</li>
+ <li> Applicants can easily track their  application status online clicking <a href="https://indianvisaonline.gov.in/visa/VisaEnquiry.jsp" rel="nofollow" target="_blank">Visa Status</a>.</li>
+ <li> For any assistance regarding Visa  issues and other related concerns tourists can call 24 * 7 Visa Support Centre  at +91-11-24300666 or send email to <a href="mailto:indiatvoa@gov.in">indiatvoa@gov.in</a>.</li></ul>
+  
+  <p><strong>The  documents required for Tourist Visa On Arrival are:</strong></p>
+   <ul class="ul1">
+   
+<li> Scanned copy of the First Page of  Passport in PDF Format, size should be minimum 10 KB to maximum 300KB.</li>
+</ul>
+
+<p><strong>The  digital photograph that needs to be uploaded along with the Visa application  should meet the following criteria:</strong></p>
+
+ <ul class="ul1">
+ <li> The photograph to be uploaded should be  in JPEG Format, size should be minimum 10 KB and must not exceed 1 MB.</li>
+ <li> The photo must be equal in both height  and width.</li>  
+ <li> Photo should display Full Face, Front  View with your eyes open.</li>
+<li> Centre head within frame and present  full head from top of hair to bottom of chin.</li>
+<li> Background should be plain light  coloured or pure white.</li>
+<li> No shadows on the face or on the  background.</li>
+<li> No Borders. </li></ul>
+<div class="clear"></div>
+      
+</div>
+
+<div id="visa3" class="col-sm-9 visadetail3">
+                <h1>Tourist Group Visa on Arrival </h1>
+       
+<p><b>1)</b> Foreign tourists in groups of four or more, arriving by air or sea, sponsored by Indian Travel Agencies approved by the Ministry of Tourism, Government of India and with a pre-drawn itinerary may be granted collective landing permit for a period not exceeding 60 days, with multiple-entry facility to enable them to visit a neighbouring country. In order to avail of this facility, the tourist or travel agency concerned shall mandatorily fill in the applications online on website www.indianvisaonline.gov.in. A complete list of group members along with printed visa applications and their itinerary should be submitted by the tourist or travel agency to the FRRO/ FRO concerned, 72 hours in advance. The tourist or travel agency shall also give an undertaking to conduct the group as per the itinerary and extend a further assurance that no individual would be allowed to drop out from the group at any place.</p>
+
+<p><b>(2)</b> Passengers on cruise ships may be granted a collective landing permit. However, in case a cruise ship visits more than one port in India, and does not visit ports of any other country, a collective landing permit may be issued at the first port of entry into India. There will be no need to issue a collective landing permit at each port of visit included in the itinerary. For example, for the passengers who have been granted collective landing permit at Chennai port, which may be the first port of entry in India, there will be no need to issue collective landing permit in subsequent ports e.g. Kochi, Mumbai, Goa, etc. Immigration authorities may allow entry on the basis of the collective landing permit issued to the passengers at the first port of entry in India if the stipulated period for which the collective landing permit has been issued is valid. However, the Master of the vessel shall provide a copy of the collective landing permit containing the names and passports details of the passengers to the Immigration Authorities at each port and ensure that no passenger (other than the passengers who have been granted collective landing permit) has been added to the list of passengers.</p>
+
+<p><b>(3)</b> Further, whenever required, Immigration officials may be sent to the previous port, at the request of the travel agency, so that they can screen all the travel documents / passports while the ship is cruising to clear the passengers at the port of arrival without any delay. The cost of travel and insurance during the travel of the Immigration officials shall be borne by the travel agency concerned.</p>
+
+<p><b>(4)</b> A fee of US $ 40/- or equivalent amount in Indian rupees per passenger, including children, will be charged from each foreigner for the grant of a landing permit. The fee shall be collected in a manner similar to the collection of visa fee i.e. by converting US dollars into Indian rupees at the commercial/Bank exchange rate.</p>
+
+
+
+<div class="Tours"></div>
+<div class="clear"></div>
+      
+        </div>
+
+<div id="visa4" class="col-sm-9 visadetail4">
+        <h1>Indian Embassies and Consulates Abroad </h1>
+       
+	 <p>Embassy  is an organization that represents a particular nation in foreign countries. It  also takes care of the interests of that nation's residents living in those  foreign countries. Given below are the contact details of Indian Embassies  located in other countries: <br>
+  <strong class="Red">Australia:</strong><br>
+  <strong>The High Commission of Australia</strong><br>
+  <strong>Address</strong>: 3 Moonah Place, Yarralumla, Australian  Capital Territory - 2600<br>
+  <strong>Contact Information:</strong><br>
+  Telephone:  +61-2-62733999 <br>
+  Fax:  +61-2-62731308 (Office), +61-2-62733328 (HC), +61-2-6273 4917(DHC), +61-2-6273  7943 (DA) <br>
+  E-Mail:  <a href="mailto:hc@hcindia-au.org">hc@hcindia-au.org</a> (High Commissioner)<br>
+  Website: <a href="http://hcindia-au.org/" target="_blank" rel="nofollow">http://hcindia-au.org/</a></p>
+  
+<p><strong class="Red">Austria </strong><br>
+  <strong>Indian  Embassy Vienna, Austria</strong><br>
+  Address  : Karntner Ring 2, 1010, Austria<br>
+  <strong>Contact Information:</strong><br>
+  Telephone:  +43 1 505 86 66 <br>
+  Fax:  +43 1 505 92 19 <br>
+  E-Mail:  <a href="mailto:indemb@eoivien.vienna.at">indemb@eoivien.vienna.at</a><br>
+  Website: <a href="http://www.indianembassy.at/" target="_blank" rel="nofollow">http://www.indianembassy.at/</a></p>
+<p><strong class="Red">Brazil </strong><br>
+  <strong>Embassy  of India, Brasilia</strong><br>
+  Address:  SES 805,LOTE 24, ASA SUL, Brasília - DF, 70452-901<br>
+  <strong>Contact Information:</strong><br>
+  Telephone:  0055-61-3248-4006 <br>
+  Fax:  0055-61-3248-7849 <br>
+  E-Mail:  <a href="mailto:reception@indianembassy.org.br">reception@indianembassy.org.br</a>, <a href="mailto:cultural@indianembassy.org.br">cultural@indianembassy.org.br</a><br>
+  Website: <a href="http://indianembassy.org.br/" target="_blank" rel="nofollow">http://indianembassy.org.br/</a></p>
+<p><strong class="Red">Canada:</strong><br>
+  <strong>High  Commission of India, Ottawa, Canada</strong><br>
+  <strong>Address:</strong> 10, Springfield Road, Ottawa, Ontario  K1M 1C9, Canada<br>
+  <strong>Contact Information: </strong><br>
+  Telephone:  00-1-613-7443751 to 53 <br>
+  Fax:  00-1-613-7440913 <br>
+  E-Mail:  <a href="mailto:hicomind@hciottawa.ca">hicomind@hciottawa.ca</a><br>
+  Website: <a href="http://www.hciottawa.ca/" target="_blank" rel="nofollow">http://www.hciottawa.ca/</a></p>
+<p><strong class="Red">China</strong><br>
+  <strong>Embassy  of India, Beijing</strong><br>
+  Address:  5, Liang Ma Qiao Bei Jie, Chaoyang District, Beijing, China.<br>
+  <strong>Contact Information:</strong><br>
+  Telephone:  00-86-10-85312500 / 2501 / 2502 / 2503 <br>
+  Fax:  00-86-10-85312515 <br>
+  E-Mail:  <a href="mailto:hoc.beijing@mea.gov.in">hoc.beijing@mea.gov.in</a><br>
+  Website: <a href="http://www.indianembassy.org.cn/" target="_blank" rel="nofollow">http://www.indianembassy.org.cn/</a></p>
+<p><strong class="Red">Denmark</strong><br>
+  <strong>Embassy  of India, Copenhagen</strong><br>
+  Address:  Vangehusvej 15, 2100 Copenhagen, Denmark<br>
+  <strong>Contact Information:</strong><br>
+  Telephone:  0045-39182888 <br>
+  Fax:  0045-39270218 <br>
+  E-Mail: <a href="mailto:amb.copenhagen@mea.gov.in" target="_blank" rel="nofollow">amb.copenhagen@mea.gov.in</a> <br>
+  Website: <a href="http://www.indian-embassy.dk/" target="_blank" rel="nofollow">http://www.indian-embassy.dk/</a></p>
+<p><strong class="Red">Italy </strong><br>
+  <strong>Embassy  of India, Rome, Italy</strong><br>
+  <strong>Address</strong>: Via XX Settembre, 5, 00187 Rome  (Italy)<br>
+  <strong>Contact Information:</strong><br>
+  Telephone:  +39 06 4884642 to 5 <br>
+  Fax:  +39 06 4819539 <br>
+  E-Mail:  <a href="mailto:gen.email@indianembassy.it">gen.email@indianembassy.it</a>,<br>
+  Website: <a href="http://www.indianembassy.it/" target="_blank" rel="nofollow">http://www.indianembassy.it/</a></p>
+<p><strong class="Red">Japan</strong><br>
+  <strong>Embassy  of India, Japan</strong><br>
+  <strong>Address</strong>: 2-2-11 Kudan-Minami, Chiyoda-ku,  Tokyo 102-0074<br>
+  <strong>Contact Information:</strong><br>
+  Telephone:  +81 3 3262-2391 to 97 <br>
+  Fax:  +81 3 3234-4866 <br>
+  E-Mail:  <a href="mailto:embassy@indembassy-tokyo.gov.in">embassy@indembassy-tokyo.gov.in</a><br>
+  Website: <a href="http://www.indembassy-tokyo.gov.in/" target="_blank" rel="nofollow">http://www.indembassy-tokyo.gov.in/</a></p>
+<p><strong class="Red">Russia</strong><br>
+  <strong>Embassy  of India, Moscow</strong><br>
+  <strong>Address:</strong> 6-8, Ulitsa Vorontsovo Polye,  Moscow, Russia<br>
+  <strong>Contact Information:</strong><br>
+  Telephone:  +7-495-7837535 (10 lines) <br>
+  Fax:  +7-495-9163632, 9172285 Working Hours: Mon- Friday : 0900 hrs to 1800 hrs <br>
+  E-Mail:  <a href="mailto:amb.moscow@mea.gov.in">amb.moscow@mea.gov.in</a>, <a href="mailto:admin@indianembassy.ru">admin@indianembassy.ru</a> (Admin)<br>
+  Website: <a href="http://www.indianembassy.ru/" target="_blank" rel="nofollow">http://www.indianembassy.ru/</a></p>
+<p><strong class="Red">Sweden</strong><br>
+  <strong>Embassy  of India, Stockholm, Sweden</strong><br>
+  <strong>Address</strong>: Adolf Fredriks Kyrkogata 12, Box  1340, 111 83 Stockholm, Sweden<br>
+  <strong>Contact Information: </strong><br>
+  Telephone:  (+46) 08-107008, 08-4113237 <br>
+  Fax:  (+46) 08-248505<br>
+  Website: <a href="http://www.indianembassy.se/" target="_blank" rel="nofollow">http://www.indianembassy.se/</a> <br>
+  <strong class="Red">Spain</strong><br>
+  <strong>Embassy  of India, Madrid</strong><br>
+  Address:  Avenida Pío XII, 30-32, 28016 Madrid Spain<br>
+  <strong>Contact Information: </strong><br>
+  Telephone:  + 34-913098870, +34-608769323 <br>
+  Fax:  +34-913451112 <br>
+  E-Mail:  <a href="mailto:amb@embassyindia.es">amb@embassyindia.es</a><br>
+  Website: <a href="http://www.embassyindia.es/" target="_blank" rel="nofollow">http://www.embassyindia.es/</a> <br>
+  <strong class="Red">Singapore</strong><br>
+  <strong>High  Commission of India, Singapore</strong><br>
+  <strong>Address:</strong> 31, Grange Road, Singapore - 239702  [Access from the Leonie Hill Road]<br>
+  <strong>Contact Information:</strong><br>
+  Telephone:  +65-62382518, +65-6238537 <br>
+  Fax:  +65-67351739 <br>
+  E-Mail:  <a href="mailto:hcoffice@hcisingapore.org">hcoffice@hcisingapore.org</a>, <a href="mailto:dhc@hcisingapore.org">dhc@hcisingapore.org</a><br>
+  Website: <a href="http://hcisingapore.gov.in/" target="_blank" rel="nofollow">http://hcisingapore.gov.in/</a></p>
+
+<p><strong class="Red">Thailand</strong><br>
+  <strong>Embassy  of India, Bangkok</strong><br>
+  <strong>Address</strong>: 46, Soi 23 [Prasarnmitr] Sukhumvit  Road, Bangkok-10110.<br>
+  <strong>Contact Information:</strong><br>
+  Telephone:  00-66-2-2580300-06, Emergency Help Line No. 00-66-819235486 <br>
+  Fax:  00-66-2-2584627, 2621740 <br>
+  E-Mail:  <a href="mailto:indiaemb@indianembassy.in.th">indiaemb@indianembassy.in.th</a><br>
+  Website: <a href="http://www.indianembassy.in.th/" target="_blank" rel="nofollow">http://www.indianembassy.in.th/</a></p>
+<p><strong class="Red">USA</strong><br>
+  <strong>Embassy  of India</strong><br>
+  <strong>Address</strong>: 2107 Massachusetts Avenue, NW, Washington,  DC 20008<br>
+  <strong>Contact Information:</strong><br>
+  Telephone:  (202) 939-7000 <br>
+  Fax:  (202) 265-4351 <br>
+  E-Mail:  <a href="mailto:hoc.washington@mea.gov.in">hoc.washington@mea.gov.in</a><br>
+  Website: <a href="http://www.indianembassy.org/" target="_blank" rel="nofollow">http://www.indianembassy.org/</a></p>
+<p><strong class="Red">United Kingdom</strong><br>
+  <strong>High  Commission of India, London</strong><br>
+  <strong>Address</strong>: India House, Aldwych, London WC2B  4NA, United Kingdom.<br>
+  <strong>Contact Information:</strong><br>
+  Telephone:  00-44-20-78368484, 76323123 (After office hours) <br>
+  Fax:  00-44-20-78364331 <br>
+  E-Mail:  <a href="mailto:hoc.london@mea.gov.in">hoc.london@mea.gov.in</a><br>
+  Website: <a href="http://www.hcilondon.in/" target="_blank" rel="nofollow">http://www.hcilondon.in/</a></p>
+<p><strong class="Red">UAE</strong><br>
+  <strong>Embassy  of India</strong><br>
+  <strong>Address: </strong>&nbsp;Plot No. 10, Sector W-59/02, Diplomatic Area,  Off the Airport Road, P. O. Box 4090, Abu Dhabi, U.A.E (UNITED ARAB EMIRATES)<br>
+  <strong class="Red">Contact Information:</strong><br>
+  Telephone:  +971 2 4492700 [Chancery], ), 4447738 (Amb.'s Office), 4490729 (CW) , 4447768  (Consular)<br>
+  Fax:  +971 2 4444685, [Chancery], 4444685 / 4447768 / 4492273 [Consular], 4490729  [CW] <br>
+  E-Mail:  <a href="mailto:ambassador@indembassyuae.org">ambassador@indembassyuae.org</a><br>
+  Website: <a href="http://www.indembassyuae.org/" target="_blank" rel="nofollow">http://www.indembassyuae.org/</a></p>
+      
+        </div>
+		
+<div id="visa5" class="col-sm-9 visadetail5">
+        <h1>Foreign Embassy &amp; Consulates in India </h1>
+       
+<p>Foreign  embassies and consulates in India are responsible for extending necessary and  important information on behalf of their countries. Bilateral documents and  agreements are conducted through these embassies. If you ever need to get in  touch with foreign embassies and consulates in India, here are their office  addresses, meeting timings, phone numbers and E-mail Ids:<br>
+  <strong class="Red">Australia</strong><br>
+  <strong>High Commission for Australia</strong><br>
+  <strong>Address</strong>:&nbsp; 1/50-G, Shantipath, Chanakyapuri,  New Delhi-110021<br>
+  <strong>Visiting  Timing:</strong>&nbsp;  Monday To Friday: 8.30 A.M. to 1.00 P.M. and 2.00 P.M to 5.00 P.M.<br>
+  <strong>Contact  Information:</strong> <br>
+  Telephone: +91-11-4139 9900; 41221000 <br>
+  Fax: +91-11-41494379; 2688 2732; 2688 7536 <br>
+  E-mail: <a href="mailto:Austhighcom.newdelhi@dfat.gov.au">Austhighcom.newdelhi@dfat.gov.au</a></p>
+  
+<p><strong class="Red">Brazil</strong><br>
+  <strong>Embassy of the Federative Republic of Brazil</strong><br>
+  <strong>Address</strong> - 8, Aurangzeb Road, New Delhi-110011<br>
+  <strong>Visiting  Time</strong>: Monday To Friday: 9.00 A.M. to 5.00 P.M.<br>
+  <strong>Contact  Information:</strong><br>
+  Telephone: +91-11-2301 7301<br>
+  Fax: +91-11-2379 3684Fax<br>
+  E-mail: <a href="mailto:political.newdelhi@itamaraty.gov.br">political.newdelhi@itamaraty.gov.br</a></p>
+  
+<p><strong class="Red">Canada:</strong><br>
+  <strong>Canadian High Commission</strong><br>
+  Address:&nbsp;  7/8, Shantipath, Chanakyapuri. New Delhi-110021<br>
+  <strong>Visiting  Time: </strong>&nbsp;Monday  to Thursday: 8.30 A.M. to 5.30 P.M.<br>
+  Friday: 8.30 A.M. to 1.00 P.M.<br>
+  <strong>Contact  Information: </strong><br>
+  Telephone: +91-11-5178 2000<br>
+  Fax: +91-11-5178 2020Fax<br>
+  E-mail: <a href="mailto:delhi@international.gc.ca">delhi@international.gc.ca </a></p>
+  
+<p><strong class="Red">France</strong><br>
+  <strong>Embassy of France</strong><br>
+  <strong>Address</strong>:&nbsp; 2/50 E, Shantipath,  Chanakyapuri, New Delhi-110021<br>
+  <strong>Visiting  Time</strong>:&nbsp; Monday  To Friday: 9.00 A.M. to 1.00 P.M. ; 3.00 P.M. to 6.00 P.M.<br>
+  <strong>Contact  Information:</strong><br>
+  Telephone: +91-11-2419 6100 <br>
+  Fax: +91-11-2419 6119Fax<br>
+  E-mail- <a href="mailto:webmaster@france-in-india.org">webmaster@france-in-india.org</a></p>
+  
+<p><strong class="Red">Germany</strong><br>
+  <strong>Embassy of the Federal Republic of Germany</strong><br>
+  <strong>Address:</strong> 6/50 G, Shanti Path, Chanakyapuri, New Delhi-110021<br>
+  <strong>Visiting  Time:</strong><br>
+  Monday to Thursday:&nbsp; 8.00 A.M. to 1.00 PM; 1.45 PM to 5.PM <br>
+  Friday:&nbsp;  8 A.M to 2.00 P.M.<br>
+  <strong>Contact  Information:</strong><br>
+  Telephone No: +91-11-2687 1831-36; 44199199<br>
+  Fax No: +91-11-2687 3117<br>
+  E-mail: <a href="mailto:info@new-delhi.diplo.de">info@new-delhi.diplo.de</a></p>
+  
+<p><strong class="Red">Italy</strong><br>
+  <strong>Embassy of Italy</strong><br>
+  <strong>Address</strong>: 50 E, Chandragupta Marg, Chanakyapuri, New Delhi-110021<br>
+  <strong>Visiting  Time:</strong> Monday To Friday: 9.00 A.M. to 1.00 P.M.;  1.30 P.M. to 5.30 P.M.<br>
+  <strong>Contact  Information:</strong><br>
+  Telephone: +91-11-2611 4355, 2611 4359,  2611 4353<br>
+  Fax: +91-11-2687 3889<br>
+  E-mail: <a href="mailto:ambasciata.newdelhi@esteri.it">ambasciata.newdelhi@esteri.it</a></p>
+  
+<p><strong class="Red">Israel</strong><br>
+  <strong>Embassy of Israel</strong><br>
+  <strong>Address</strong>: 3, Aurangzeb Road, New Delhi-110011<br>
+  <strong>Visiting  Time</strong>: <br>
+  Monday To Thursday: 9.00 A.M. to 5.00 P.M.<br>
+  Friday:&nbsp;  9.00 A.M. to 3.00 P.M.<br>
+  
+  <strong>Contact  Information:</strong><br>
+  Telephone: +91-11-30414500<br>
+  Fax: +91-11-304 14555<br>
+  E-mail: <a href="mailto:info@newdelhi.mfa.gov.il">info@newdelhi.mfa.gov.il</a><br>
+  
+  <strong class="Red">  Japan</strong><br>
+  <strong>Embassy of Japan</strong><br>
+  <strong>Address</strong>:&nbsp; 50 G, Shantipath,  Chanakyapuri, New Delhi-110 021<br>
+  <strong>Visiting  Time</strong>: Monday To Friday: 9.00 A.M. to 1.00 P.M; 2.00  P.M. to 5.30 P.M.<br>
+  <strong>Contact  Information:</strong><br>
+  Telephone No: +91-11-2687 6564, 2687 6581 <br>
+  Fax: +91-11-2688 5587<br>
+  E-mail: <a href="mailto:jpembjic@bol.net.in">jpembjic@bol.net.in</a></p>
+  
+<p><strong class="Red">Maldives</strong><br>
+  <strong>High Commission of Maldives</strong><br>
+  Address: B-2 Anand Niketan, New  Delhi-110021<br>
+  <strong>Visiting  Time: &nbsp;</strong>Monday  To Friday: 9.00 A.M. to 1.00P.M.; 2.00 P.M. to 4.00 P.M.<br>
+  <strong>Contact  Information:</strong><br>
+  Telephone No: +91-11-4143 5701-08<br>
+  Fax: +91-11-4143 5709<br>
+  E-mail: <a href="mailto:admn@maldiveshighcom.co.in">admn@maldiveshighcom.co.in</a></p>
+
+
+<p><strong class="Red">Russia</strong><br>
+  <strong>Embassy of the Russian Federation</strong><br>
+  <strong>Address</strong> – Shantipath, Chanakyapuri, New Delhi-110021<br>
+  <strong>Visiting  Time:</strong> <br>
+  Monday &amp; Thursday: &nbsp;8.00 A.M. to 6.30 P.M.<br>
+  Tuesday, Wednesday &amp; Friday: &nbsp;8.00 A.M. to 2.00 P.M.<br>
+  <strong>Contact  Information:</strong><br>
+  Telephone: +91-11-2687 3799, 26873802, 2611  0642 (O) Phone<br>
+  Fax: +91-11-2687 6823, 2611 0560, 2410  3961Fax<br>
+  E-mail: <a href="mailto:indrusem@del2.vsnl.net.in">indrusem@del2.vsnl.net.in</a>, <a href="mailto:indconru@del2.vsnl.net.in">indconru@del2.vsnl.net.in</a></p>
+<p><strong class="Red">Singapore</strong><br>
+  <strong>Singapore High Commission</strong><br>
+  <strong>Address</strong>: E-6, Chandragupta Marg, Chanakyapuri, New Delhi-110021<br>
+  <strong>Visiting  Time:</strong> Monday To Friday: 8.30 A.M. to 1.00 P.M. 1.30  P.M. to 4.30 P.M.<br>
+  <strong>Contact  Information: </strong><br>
+  Telephone: +91-11- 46000800<br>
+  Fax: +91-11-46016413, 46016412Fax<br>
+  E-mail: <a href="mailto:singhc_del@sgmfa.gov.sg">singhc_del@sgmfa.gov.sg</a></p>
+<p><strong class="Red">Sweden</strong><br>
+  <strong>Embassy of Sweden</strong><br>
+  <strong>Address</strong>:&nbsp; 4-5, Nyaya Marg, Chanakyapuri,  New Delhi-110021<br>
+  <strong>Visiting  Time:</strong> &nbsp;<br>
+  Monday To Thursday: 8.30 A.M. to 1.00 P.M; 2.00  P.M. to 5.00 P.M. <br>
+  Friday: 8.30 A.M. to 2.00 P<br>
+  <strong>Contact  Information:</strong><br>
+  Telephone: +91-11-2419 7100<br>
+  Fax: +91-11-2688 5401, 2688 5540<br>
+  E-mail:<a href="mailto:ambassaden.new-delhi@foreign.ministry.se">ambassaden.new-delhi@foreign.ministry.se</a></p>
+<p><strong class="Red">Switzerland</strong><br>
+  <strong>Embassy of Switzerland</strong><br>
+  <strong>Address</strong>: Nyaya Marg, Chanakyapuri, New Delhi-110021<br>
+  <strong>Visiting  Time: </strong><br>
+  Monday To Thursday: 8.00 A.M. to 1.00 P.M.;&nbsp; 1.30 P.M. to 5.00 P.M. <br>
+  Friday i: 8.00 A.M. to 2.00 P.M.<br>
+  <strong>Contact  Information:</strong><br>
+  Telephone: +91-11-2687 8534, 2687 8372,  2687 8373, 687 8374<br>
+  Fax: +91-11-2687 3093, 2611 2220Fax<br>
+  E-mail: <a href="mailto:Vertretung@ndh.rep.admin.ch">Vertretung@ndh.rep.admin.ch</a></p>
+<p><strong class="Red">Thailand</strong><br>
+  <strong>Royal Thai Embassy</strong><br>
+  <strong>Address</strong>: F 4/5 Vasant Vihar, New Delhi-110057<br>
+  <strong>Visiting  Time</strong>: Monday To Friday: 9.00 A.M. to 12.30 P.M.  2.00 P.M. to 5.00 P.M.<br>
+  <strong>Contact  Information:</strong><br>
+  Telephone: +91-11-46301106-10 <br>
+  Fax: +91-11-46301104<br>
+  E-mail: <a href="mailto:thaidel@mfa.go.th">thaidel@mfa.go.th</a></p>
+
+<p><strong class="Red">United Kingdom</strong><br>
+  <strong>High Commission for Great Britain</strong><br>
+  Address – Shantipath, Chanakyapuri, New  Delhi-110021<br>
+  <strong>Visiting  Time:</strong> Monday To Friday: 9.00 A.M. to 1.00 P.M. and  2.00 P.M. to 5.00 P.M.<br>
+  <strong>Contact  Information: </strong><br>
+  Telephone:&nbsp;  +91-11-2687 2161, 24192100<br>
+  Fax: +91-11-2687 0068, 2687 2882, 2687  0062, 2687 0060<br>
+  E-mail: <a href="mailto:postmaster.nedel@fco.gov.uk">postmaster.nedel@fco.gov.uk</a></p>
+<p><strong class="Red">United States of America </strong><br>
+  <strong>Embassy of the United States of America</strong><br>
+  <strong>Address</strong>:&nbsp; Chanakyapuri, New Delhi-110021<br>
+  <strong>Visiting  Time</strong>: Monday To Friday: 8.30 A.M. to 1.00 P.M. and  2.00 P.M. to 5.30 P.M.<br>
+  <strong>Contact  Information: </strong><br>
+  Telephone:&nbsp;  +91-11-2419 8000<br>
+  Fax:&nbsp;  +91-11- 24190017Fax<br>
+  E-mail: <a href="mailto:ndcentral@state.gov">ndcentral@state.gov</a> &amp;  <a href="mailto:ndboxmea@state.gov">ndboxmea@state.gov</a></p>
+<p><strong class="Red">United  Arab Emirates</strong><br>
+  <strong>Embassy of the United Arab Emirates</strong><br>
+  <strong>Address</strong> :&nbsp; 12, Chandragupta  Marg,&nbsp; Chanakyapuri, New Delhi-110021<br>
+  <strong>Visiting  Time:</strong> Monday To Friday: 9.00 A.M. to 3.00 P.M.<br>
+  <strong>Contact  Information: </strong><br>
+  Telephone: +91-11-2611 1111<br>
+  Fax: +91-11-2687 3272Fax<br>
+  E-mail: <a href="mailto:uae_embassy_nd@bol.net.in">uae_embassy_nd@bol.net.in</a><br>
+  For more details visit <a href="http://meaprotocol.nic.in/" target="_blank" rel="nofollow">Ministry of External Affairs  Website</a> of Government of India. </p>
+      
+        </div>
+
+
+
+
+</div>
+
+
+
+
+
+<div id="footer" class="container bottomfooter"></div>
+
+
+
+<script src="myscripts.js"></script>
+
+<script>
+function v1() {
+console.log("v1 clicked");
+hidevisa();
+document.getElementById("visa1").style.display = "block";
+}
+function v2() {
+console.log("v2 clicked");
+hidevisa();
+document.getElementById("visa2").style.display = "block";
+}
+function v3() {
+console.log("v3 clicked");
+hidevisa();
+document.getElementById("visa3").style.display = "block";
+}
+function v4() {
+console.log("v4 clicked");
+hidevisa();
+document.getElementById("visa4").style.display = "block";
+}
+function v5() {
+console.log("v5 clicked");
+hidevisa();
+document.getElementById("visa5").style.display = "block";
+}
+
+function hidevisa() {
+var i;
+for (i = 1; i < 5; i++) {
+document.getElementById("visa"+i).style.display = "none";
+}
+}
+
+</script>
+<script>
+
+setTimeout(function (){
+document.getElementById("testimonial").classList.add("active");
+}, 1000); // How long do you want the delay to be (in milliseconds)?
+
+</script>
+
+</body>
+</html>

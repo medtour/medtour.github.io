@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js'></script>
+<div id="head"></div>
+
+
+<style>
+
+.container {background-color:pink;}
+.carouselcontainer {display:block; overflow:hidden; margin:auto; background-color:white; position:relative;}
+.carousel {margin-left:0px; transition:all 2s ease;}
+.box {float:left; display:block;}
+.box>img {padding:10px;}
+.box>h3 {text-align:center;}
+.carouselcontrol { height: 40px; width: 40px; border: 4px solid #FFFFFF; border-radius: 23px; position: absolute; font-size: 20px; color: #fff; text-align: center; text-shadow: 0 1px 2px rgba(0,0,0,.6); filter: alpha(opacity=50); opacity: .5;text-decoration: none; background-color:#222222; top:calc(50% - 20px);  box-sizing: border-box; cursor:pointer;}
+.left {left:-10px;}
+.right {right:-10px;}
+
+</style>
+</head>
+<body>
+
+<header id="headercontent"></header>
+<div id="menutoggle" class="nav"></div>
+
+<div id="smedia" class="smedia"></div>
+
+
+
+
+<div class="container">
+<div id="carouselcontainer" class="carouselcontainer">
+<a onclick="prev()" class="left carouselcontrol">‹</a>
+<a onclick="next()" class="right carouselcontrol">›</a>
+<h2>Our Hospitals</h2>
+<div id="carousel" class="carousel">
+<div class="box">
+<img src="img/fortis.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>FORTIS HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/manipal.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>MANIPAL HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/columbia.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>COLUMBIA HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/sakra.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>SAKRA HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/apollo.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>APOLLO HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/vikram.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>VIKRAM HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/hosmat.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>HOSMAT HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/hcg.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>HCG HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/narana.png" alt="Image" style="height:250px; width:250px;">
+<h3>NARANA HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/agarwals.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>AGARWALS HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/global.jpeg" alt="Image" style="height:250px; width:250px;">
+<h3>GLOBAL HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/rainbow.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>RAINBOW HOSPITAL</h3>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div id="sidepanel" class="col-sm-3 block5"></div>
+
+
+
+</div>
+
+<div id="footer" class="container bottomfooter" style="width:100%; padding:0; margin:0; background-color:black; color:black;"></div>
+
+
+
+
+
+<script>
+//carouselcontainer how many boxes?//
+var listofcommand = document.getElementById('carousel');
+console.dir(listofcommand);
+
+var slideimg = 3;
+
+var numberofimg = document.getElementById('carousel').children.length + 3;
+console.log(numberofimg);
+var boxwidth = document.getElementById('carousel').firstElementChild.clientWidth;
+console.log(boxwidth);
+
+var caroContainSize = (numberofimg * boxwidth);
+document.getElementById('carousel').style.width = caroContainSize + "px";
+
+var currentwidth = (boxwidth * slideimg);
+document.getElementById('carouselcontainer').style.width = currentwidth + "px";
+console.log(currentwidth + "px");
+
+
+for (i = 0; i < slideimg; i++){
+var cln = document.getElementById("carousel").children[i].cloneNode(true);
+document.getElementById("carousel").appendChild(cln);
+console.log(cln);
+}
+
+
+var count = 0;
+
+function prev(){
+
+var moveslide = count + currentwidth;
+document.getElementById("carousel").style.marginLeft = -moveslide+"px";
+console.log("margin left is " + moveslide);
+count += currentwidth ;
+if (count == 2430+810) { count = 0; }
+
+}
+
+
+function next(){
+console.log("user has clicked next button");
+}
+
+</script>
+
+
+
+
+
+
+
+<script>
+
+$(document).ready(
+function() {
+if( $(window).width() > 768 ) { $('#menutoggle').show(); }
+else {}
+
+if( $(window).width() < 768 ) { $('#menutoggle').hide(); }
+else {}
+}
+)
+
+$(window).resize(function() {
+if( $(window).width() > 768 ) { $('#menutoggle').show(); }
+else {}
+
+if( $(window).width() < 768 ) { $('#menutoggle').hide(); }
+else {}
+});
+
+</script>
+<script src="myscripts.js"></script>
+<script>
+$(document).ready(function(){
+
+	$("#toggle").click(function(){
+		$("#togglee").toggleClass("a b");
+	});
+	
+	$("#toggle").click(function(){
+		$("#arrowtoggle").toggleClass("arrowimg1 arrowimg2");
+	});
+	
+	$("#menubars").click(function(){
+		
+		$("#menutoggle").toggleClass("hide show");
+	});
+	
+	$("#menubars").click(function(){
+		
+		$("#menubars").toggleClass("menu menuon");
+	});
+	
+
+});
+</script>
+
+<script>
+
+setTimeout(function (){
+document.getElementById("index").classList.add("active");
+}, 1000); // How long do you want the delay to be (in milliseconds)?
+
+</script>
+
+
+</body>
+</html>
