@@ -9,7 +9,7 @@
 
 .container {background-color:pink;}
 .carouselcontainer {display:block; overflow:hidden; margin:auto; background-color:white; position:relative;}
-.carousel {margin-left:0px; transition:all 2s ease;}
+.carousel {margin-left:0px; transition:all 1s;}
 .box {float:left; display:block;}
 .box>img {padding:10px;}
 .box>h3 {text-align:center;}
@@ -112,7 +112,7 @@ console.dir(listofcommand);
 
 var slideimg = 3;
 
-var numberofimg = document.getElementById('carousel').children.length + 3;
+var numberofimg = document.getElementById('carousel').children.length;
 console.log(numberofimg);
 var boxwidth = document.getElementById('carousel').firstElementChild.clientWidth;
 console.log(boxwidth);
@@ -125,28 +125,34 @@ document.getElementById('carouselcontainer').style.width = currentwidth + "px";
 console.log(currentwidth + "px");
 
 
-for (i = 0; i < slideimg; i++){
-var cln = document.getElementById("carousel").children[i].cloneNode(true);
-document.getElementById("carousel").appendChild(cln);
-console.log(cln);
-}
+<!-- for (i = 0; i < slideimg; i++){ -->
+<!-- var cln = document.getElementById("carousel").children[i].cloneNode(true); -->
+<!-- document.getElementById("carousel").appendChild(cln); -->
+<!-- console.log(cln); -->
+<!-- } -->
 
-
+var totalslides = caroContainSize / currentwidth;
+console.log(totalslides);
+var slidenumber = 0;
 var count = 0;
 
 function prev(){
-
-var moveslide = count + currentwidth;
-document.getElementById("carousel").style.marginLeft = -moveslide+"px";
-console.log("margin left is " + moveslide);
-count += currentwidth ;
-if (count == 2430+810) { count = 0; }
-
+slidenumber--;
+if (slidenumber == -1) {slidenumber = totalslides - 1; console.log("reset done -"+ slidenumber);}
+console.log("clicked prev - "+ "and width set to "+ slidenumber);
+move();
 }
 
-
 function next(){
-console.log("user has clicked next button");
+slidenumber++;
+if (slidenumber == totalslides) {slidenumber = 0; console.log("reset done -"+ slidenumber);}
+move();
+console.log("clicked next - "+ "and width set to "+ slidenumber);
+}
+
+function move() {
+var setmargin = slidenumber * currentwidth;
+document.getElementById("carousel").style.marginLeft = -setmargin + "px";
 }
 
 </script>

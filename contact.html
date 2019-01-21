@@ -23,49 +23,50 @@ h1 {padding-left:20px;}
 .mail::before {background-image:url('img/mail2.png');background-size: 25px 25px; display:inline-block; width: 25px; height: 25px; content:""; padding-right:8px;background-repeat:no-repeat;}
 .designation::before {background-image:url('img/man2.png');background-size: 25px 25px; display:inline-block; width: 25px; height:25px; content:""; padding-right:8px; background-repeat:no-repeat;}
 .addrblock {width:100%; background-color:#52575b; color:#fff; margin:auto; margin-top:20px; box-sizing: border-box;
-    padding: 10px;}
+padding: 10px;}
 
-.mapcontain {max-width:600px;  margin:auto; margin-top:20px;}
+.mapcontain {max-width:600px;margin:auto; margin-top:20px;}
 .map {max-width:650px; width:100%;height:550px;border:0;}
 
 
 .mailbox {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
 }
 input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+background-color: #45a049;
 }
 .bgcontact {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/doctor2.jpg"); min-height:calc(100vh - 82px); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;}
 .bgcontact>h1 {text-align:center; color:white;}
 
 
-.collapsible {background-color: #777; color: white; cursor: pointer; padding:10px 18px; width: 100%; border: none; text-align: left; outline: none; font-size: 15px; }
-.active, .collapsible:hover { background-color: #555;}
+.collapsible {background-color: #777; color: white; cursor: pointer; padding: 10px 73px; width: 100%; border: none; text-align: left; outline: none; font-size: 15px; }
+.content p, .content ul { padding: 10px 73px;}
+.activecoll, .collapsible:hover { background-color: #555;}
 .collapsible:after { content: '\002B'; color: white; font-weight: bold; float: right; margin-left: 5px;}
-.active:after { content: "\2212";}
-.content {  padding: 0 18px; max-height: 0; overflow: hidden; transition: max-height 0.2s ease-out; background-color: #f1f1f1;}
+.activecoll:after { content: "\2212";}
+.content {padding: 0 18px; max-height: 0; overflow: hidden; transition: max-height 0.2s ease-out; background-color: #f1f1f1;}
 
 
 </style>
@@ -122,84 +123,149 @@ input[type=submit]:hover {
 
 <div class="col-sm-6 mailbox">
 
-  <form action="http://free.allforms.mailjol.net/u/b82b72fa.php" method="post">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<form action="http://free.allforms.mailjol.net/u/b82b72fa.php" method="post">
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="Bahrain">Bahrain</option>
-      <option value="UAE">UAE</option>
-      <option value="Saudi Arabia">Saudi Arabia</option>
-      <option value="Oman">Oman</option>
-    </select>
+<label for="country">Country</label>
+<select id="country" name="country">
+<option value="Bahrain">Bahrain</option>
+<option value="UAE">UAE</option>
+<option value="Saudi Arabia">Saudi Arabia</option>
+<option value="Oman">Oman</option>
+</select>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+<label for="subject">Subject</label>
+<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" name="submit" value="Submit">
-  </form>
+<input type="submit" name="submit" value="Submit">
+</form>
 
 </div>
 </div>
 
 
-<h2>Frequently asked question</h2>
-<button class="collapsible">1. How can you help us?</button>
+<h2 style="text-align:center;">Frequently asked question</h2>
+
+
+<button class="collapsible">1. How is India in comparison to other countries when it comes to medical treatment?</button>
 <div class="content">
-
+<p>India has some of the world's best healthcare facilities, backed by the latest
+technology, trained healthcare professionals and doctors with international
+qualifications and years of rich experience in their field. Also when it comes to the
+cost of treatment, India is much less expensive than most developed countries. With
+the best healthcare infrastructure and the finest medical and surgical expertise, India
+offers world-class medical treatment and patient care services at a much affordable
+cost.</p>
 </div>
-<button class="collapsible">How do I know the clinic or Hospital I am searching is verified?</button>
+
+<button class="collapsible">2. How is Fortis Healthcare when compared with other hospitals?</button>
 <div class="content">
-
+<ul>
+<li>Fortis hospitals form a large network of integrated healthcare services across
+Asia-Pacific</li>
+<li>They offer the best of medical facilities and the latest technologies</li>
+<li>Fortis has some of the most qualified, highly specialized and trained doctors
+recognized globally for their expertise and skills</li>
+<li>Flawless services and personalized care and attention</li>
+<li>Fortis offers international standards in healthcare services at comparatively
+affordable prices</li>
+</ul>
 </div>
-<button class="collapsible">I have some </button>
+
+<button class="collapsible">3. Can you help me get a visa?</button>
 <div class="content">
-
+<p>Yes, we can. Once you confirm your visit to our facility for medical treatment, we will
+send a visa requisition letter to the Indian Embassy in the country you live in. A copy
+of the letter will be marked to you.</p>
+<p>For us to do the same, you will have to send us the following details via email:</p>
+<ul>
+<li>Patient's name and passport number</li>
+<li>Patient attendants name and passport number</li>
+<li>Country of residence</li>
+<li>Your tentative date of arrival at Fortis for treatment</li></ul>
+<p><b>Please Note:</b></p>
+<ul>
+<li>If you are traveling on a medical visa, you are required to register at the
+Foreigner's Regional Registration Office within 14 days of your arrival.</li>
+<li>Patients from Pakistan and Bangladesh are required to register with the
+nearest Police Station or Police Commissioner's office within 24 hours of
+arrival.</li>
+<li>Refer to your Visa/ Transit document for detailed instructions.</li>
+<li>Please bring 10 passport sized photographs with you for the above formalities.</li>
+</ul>
 </div>
-<button class="collapsible">How can I budget my treatment and travel</button>
+
+<button class="collapsible">4. Will a pick up from the airport be arranged for me?</button>
 <div class="content">
-
+<p>Yes, our International Patient Care Team will arrange airport pick up for you once your
+date and time of arrival in confirmed. A representative from our International Patient
+Services team shall escort you from the airport to the hospital/hotel as per your
+itinerary.</p>
 </div>
-<button class="collapsible"></button>
+
+<button class="collapsible">5. Where will I stay till I'm admitted to the hospital or after I'm discharged?</button>
 <div class="content">
-
+<p>Our team can help you in arranging for an accommodation (hotel/rented apartment
+etc.) based on your budget preferences. There are various guest houses, service
+apartments and luxurious 5-star hotels in the vicinity of the hospital. Facilities like
+hospital visits, on-call doctor, cab services and emergency ambulance can also be
+arranged, if you may require them.</p>
 </div>
-<button class="collapsible"></button>
+
+<button class="collapsible">6. What about my appointments with the doctor?</button>
 <div class="content">
+<p>A relationship manager will liaise between you and the hospital. All your appointments
+for various services like the outpatient clinic, laboratory and pathology, medical
+imaging, and inpatient surgical procedures will be managed by the team.</p>
+</div>
 
+<button class="collapsible">7. Are there any special facilities and services that you provide for patients from
+outside India?</button>
+<div class="content">
+<ul><li>Pickup and drop from the airport</li>
+<li>A SIM card on arrival, so that you can talk to your relatives back home</li>
+<li>VISA/FRRO assistance</li>
+<li>Language interpreters</li>
+<li>Foreign Exchange conversion at the hospital</li>
+<li>Fax, photocopy and courier services</li>
+<li>Laundry services</li>
+<li>In-room color television, cable connection, DVD player</li>
+<li>Complimentary Wi-Fi in most of our hospitals</li>
+<li>Complimentary stay in your room for one attendant (while you are being
+operated on, we will provide alternative accommodation for your attendant)</li>
+<li>Special arrangements to meet specific religious or dietary needs</li>
+<li>Daily updates for your referring doctors and family</li></ul>
+</div>
+
+<button class="collapsible">8. We accept the following modes of payment:</button>
+<div class="content">
+<p><b>Wire Transfer-</b>
+You can transfer money directly from your bank account to Fortis
+Healthcare's account</p>
+<p><b>Direct payment-</b>
+At the hospital, you can pay your bills directly through cash, card, or
+traveler's cheque</p>
+<p><b>Please Note:</b>&nbsp;We accept all major credit cards like VISA, MASTER Card, AMEX and
+CIRRUS. We accept payment for inpatient services in the following currencies- US
+Dollar, Euro, Pound Sterling, Omani Riyal, UAE Dirham, Kuwait Dinar, Saudi Riyal and
+Singapore dollars.</p>
 </div>
 
 
-
+<div id="sidepanel" class="col-sm-3 hidden"></div>
 
 <div id="footer" class="container bottomfooter"></div>
 
 
 
 <script src="myscripts.js"></script>
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-</script>
 
-<script src="spawner.js"></script>
-<script>spawnCall();</script>
+
 
 <script>
 

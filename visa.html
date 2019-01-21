@@ -13,6 +13,7 @@ h1, h3 {text-align:center;}
 .visapanel { background-color: #111; colot:white; display:block;}
 .visapanel a { color:white; padding:10px 0px; display:block; cursor:pointer;}
 .visapanel a:hover { background-color:brown;}
+.activelist {background-color:brown;}
 
 /* on tablet */
 @media only screen and (max-width:1080px) {
@@ -618,6 +619,7 @@ function v1() {
 console.log("v1 clicked");
 hidevisa();
 document.getElementById("visa1").style.display = "block";
+document.getElementById("visa1").classList.add = "activelist";
 }
 function v2() {
 console.log("v2 clicked");
@@ -651,7 +653,7 @@ document.getElementById("visa"+i).style.display = "none";
 <script>
 
 setTimeout(function (){
-document.getElementById("testimonial").classList.add("active");
+document.getElementById("visa").classList.add("active");
 }, 1000); // How long do you want the delay to be (in milliseconds)?
 
 </script>

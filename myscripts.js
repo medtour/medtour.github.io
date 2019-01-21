@@ -59,9 +59,9 @@ document.getElementById("menutoggle").innerHTML =
 "<a id='location' href='location.html'>Location</a>" +
 "</li>" +
 
-"<li>" +
-"<a id='hospitals' href='hospitals.html'>Our Hospitals</a>" +
-"</li>" +
+"<!-- <li> -->" +
+"<!-- <a id='hospitals' href='hospitals.html'>Our Hospitals</a> -->" +
+"<!-- </li> -->" +
 
 "<li>" +
 "<a id='visa' href='visa.html'>Visa Process</a>" +
@@ -179,3 +179,24 @@ $(document).ready(function(){
 	
 
 });
+
+
+var coll = document.getElementsByClassName("collapsible");
+var clicked;
+var used = 0;
+var previous;
+for (i = 0; i < coll.length; i++) {
+coll[i].addEventListener("click", function() {
+clicked = this;
+changecoll();
+});
+}
+
+function changecoll() {
+if (used == 0) {add(); used = 1;} else if (previous == clicked) {remove(); used = 0;} else {remove(); add(); used = 1;}
+previous = clicked;
+console.log(previous , clicked);
+}
+
+function add() {clicked.classList.add("activecoll");clicked.nextElementSibling.style.maxHeight = clicked.nextElementSibling.scrollHeight + "px";}
+function remove() {previous.classList.remove("activecoll"); previous.nextElementSibling.style.maxHeight = null;}

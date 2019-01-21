@@ -3,9 +3,6 @@
 <head>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js'></script>
 <div id="head"></div>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <style>
 
@@ -63,7 +60,7 @@
 
 
 
-.serviceblock {width:100%; padding:20px 50px; height:auto; text-align:center;}
+.serviceblock {width:100%; padding:20px 50px; height:auto; text-align:center; box-sizing:border-box;}
 .medimg {background-repeat:no-repeat; background-position:center; height:150px; width:calc(25% - 40px); position:relative; float:left; margin:20px; cursor:pointer; -webkit-transition: all 2s ease; /* Safari */ transition: all 2s ease; background-size:100% 100%; display:;}
 .medimg:hover { background-size:130% 130%;}
 .treatments {background-color:rgba(0, 0, 0, 0.5); height:100%; width:100%; display:block;}
@@ -85,27 +82,36 @@
 .button:hover { background-color: #f1f1f1; border:0.5px solid blue; text-decoration:none;}
 
 
-.bootcontainer {display:block; overflow:hidden; width:100%; min-height:500px; background-color:black;}
-.bootcontainer>.container {overflow:hidden;}
-.carousel { margin-bottom: 0;  padding: 0 40px 30px 40px;}
-/* The controlsy */
-.carousel-control {left: -12px; height: 40px;width:40px; background: none repeat scroll 0 0 #222222; border: 4px solid #FFFFFF; border-radius: 23px 23px 23px 23px; margin-top:90px;}
-.carousel-control.right {right: -12px;}
-/* The indicators */
-.carousel-indicators {right: 50%;top: auto;bottom: -10px;margin-right: -19px;}
-/* The colour of the indicators */
-.carousel-indicators li {background: #cecece;}
-.carousel-indicators .active {background: #428bca;}
+.slidecontainer {background-color:black;}
+.carouselcontainer {display:block; overflow:hidden; margin:auto; background-color:black; position:relative;}
+.carouselcontainer h2 {color:white; text-align:center;}
+.carousel {margin-left:0px; transition:all 1s;}
+.box {float:left; display:block;}
+.box>img {padding:10px;}
+.box>h3 {text-align:center; color:white;}
+.carouselcontrol { height: 40px; width: 40px; border: 4px solid #FFFFFF; border-radius: 23px; position: absolute; font-size: 20px; color: #fff; text-align: center; text-shadow: 0 1px 2px rgba(0,0,0,.6); filter: alpha(opacity=50); opacity: .5;text-decoration: none; background-color:#222222; top:calc(50% - 20px);  box-sizing: border-box; cursor:pointer;}
+.left {left:-5px;}
+.right {right:-5px;}
 
-.row>h2 {color:white; text-align:center;}
-.row>.col-md-3>h3 {height:50px; color:white; background-color:black; text-align:center;}
+
+.serviceicon {display:block; width:100%; overflow:hidden; box-sizing:border-box; border:50px solid white; text-align:center;}
+.serviceicon>div {height:140px; width:140px; margin:50px 100px; float:left; display:block; box-sizing:border-box; border:1px solid RED; -webkit-transition: all 1s; /* Safari */ transition: all 0.5s; position:relative;  border-radius:50%;}
+.serviceicon>div>img {display:block; max-height:60%; max-width:60%; margin:auto; position:relative; top:calc(20%);-webkit-transition: all 1s; /* Safari */ transition: all 0.5s;}
+.serviceicon>div>p {border:; margin:0; width:100%; position:absolute; height:40px; bottom:-50px; text-align:center;}
+.serviceicon .button {margin-top:50px;}
+.serviceicon>div:hover {border:3px solid red;}
+.serviceicon>div:hover img  { max-height:70%; max-width:70%;}
+
+.flag {}
+.flag>img {display:block; height:260px; width:100%; border:1px solid blue;}
+
 
 </style>
 </head>
 <body>
 
 <header id="headercontent"></header>
-<div id="menutoggle" class="nav"></div>
+<div id="menutoggle" class="nav hide"></div>
 
 <div id="smedia" class="smedia"></div>
 
@@ -135,83 +141,22 @@ Promising enriching experience to medical tourists with a range of quality-prove
 
 </div>
 
-<div class="serviceblock">
-<h2>OUR SERVICES</h2>
-<div class="medimg" style="background-image:url('img/treatments/ent.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;ENT OTORHINOLARYNGOLOGY الأنف والأذن والحنجرة</h4>
-</a>
+<div class="serviceicon">
+<h2>Our Services</h2>
+<div><img src="img/icon1.png" alt="img"><p>Heart Care</p></div>
+<div><img src="img/icon2.png" alt="img"><p>Bone & Joint Care</p></div>
+<div><img src="img/icon3.png" alt="img"><p>Urology Care</p></div>
+<div><img src="img/icon4.png" alt="img"><p>Women & Child Care</p></div>
+<div><img src="img/icon5.png" alt="img"><p>Multi-Organ Transplant</p></div>
+<div><img src="img/icon6.png" alt="img"><p>Robotic Surgery</p></div>
+<div><img src="img/icon7.png" alt="img"><p>Brain & Spain Care</p></div>
+<div><img src="img/icon8.png" alt="img"><p>Digestive Care</p></div>
+<div><img src="img/icon9.png" alt="img"><p>Cancer Care</p></div>
+<div><img src="img/icon10.png" alt="img"><p>Haematology & Bone Marrow Transplant</p></div>
+<div><img src="img/icon11.png" alt="img"><p>Minimal Access Surgery</p></div>
+<div><img src="img/icon12.png" alt="img"><p>Emergency Care</p></div>
+<span><a class="button" href="services.html">View More</a></span>
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_98641478-300x202.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;Cardiology &#8211; طب وجراحة القلب</h4>
-</a>
-</div>
-
-<div class="medimg" style="background-image:url('img/treatments/stemcell.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;STEM CELL THERAPY &#8211; العلاج بالخلايا الجذعية</h4>
-</a>
-</div>
-
-<div class="medimg" style="background-image:url('img/treatments/urology.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;UROLOGY &#8211; جراحة المسالك البولية</h4>
-</a>
-</div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/Neurology_Final-300x214.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;Neurology &#8211; طب وجراحة الأعصاب</h4>
-</a>
-</div>
-
-<div class="medimg xs-hidden" style="background-image:url('wp-content/uploads/shutterstock_78972478-300x202.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;PAEDIATRICS</h4>
-</a>
-</div>
-
-<div class="medimg xs-hidden" style="background-image:url('wp-content/uploads/shutterstock_94752094-288x300.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;SPINE &#8211; العمود الفقري</h4>
-</a>
-</div>
-
-<div class="medimg xs-hidden" style="background-image:url('wp-content/uploads/organ-transplantation-1-728-300x225.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;TRANSPLANT &#8211; زراعة الأعضاء</h4>
-</a>
-</div>
-
-<div class="medimg xs-hidden" style="background-image:url('wp-content/uploads/ortho-300x300.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;Orthopaedics &#8211; جراحة العظام</h4>
-</a>
-</div>
-
-<div class="medimg xs-hidden" style="background-image:url('wp-content/uploads/shutterstock_483047908-300x202.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;AESTHETIC MEDICINE</h4>
-</a>
-</div>
-
-<div class="medimg xs-hidden" style="background-image:url('wp-content/uploads/Opthalmology-300x147.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;Eye/Ophthalmology &#8211; طب وجراحة العيون</h4>
-</a>
-</div>
-
-<div class="medimg xs-hidden" style="background-image:url('wp-content/uploads/shutterstock_410510296-300x202.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;BARIATRIC SURGERY &#8211; جراحة السمنة</h4>
-</a>
-
-</div>
-<a class="button">View More</a>
-</div>
-
 
 
 <div class="parallax2 container" style="width:100%; padding:0; margin:0; background-color:black; color:black;">
@@ -223,71 +168,74 @@ Promising enriching experience to medical tourists with a range of quality-prove
 </div>
 </div>
 
-<div class="bootcontainer">
-<div class="container">
-    <div class="row"><h2>Our Hospitals</h2>
-		<div class="col-md-12">
-                <div id="Carousel" class="carousel slide">
-                 
-                <ol class="carousel-indicators">
-                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#Carousel" data-slide-to="1"></li>
-                    <li data-target="#Carousel" data-slide-to="2"></li>
-                </ol>
-                 
-                <!-- Carousel items -->
-                <div class="carousel-inner">
-                    
-                <div class="item active">
-                	<div class="row">
-                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/fortis.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>FORTIS HOSPITAL</h3></div>
-                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/manipal.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>MANIPAL HOSPITAL</h3></div>
-                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/columbia.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>COLUMBIA HOSPITAL</h3></div>
-                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/sakra.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>SAKRA HOSPITAL</h3></div>
-                	</div><!--.row-->
-                </div><!--.item-->
-                 
-                <div class="item">
-                	<div class="row">
-                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/apollo.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>APOLLO HOSPITAL</h3></div>
-                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/vikram.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>VIKRAM HOSPITAL</h3></div>
-                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/hosmat.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>HOSMAT HOSPITAL</h3></div>
-                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/hcg.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>HCG HOSPITAL</h3></div>
-                	</div><!--.row-->
-                </div><!--.item-->
-                 
-                <div class="item">
-                	<div class="row">
-                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/narana.png" alt="Image" style="height:250px; width:250px;"></a><h3>NARANA HOSPITAL</h3></div>
-                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/agarwals.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>AGARWALS HOSPITAL</h3></div>
-                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/global.jpeg" alt="Image" style="height:250px; width:250px;"></a><h3>GLOBAL HOSPITAL</h3></div>
-                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="img/rainbow.jpg" alt="Image" style="height:250px; width:250px;"></a><h3>RAINBOW HOSPITAL</h3></div>
-                	</div><!--.row-->
-                </div><!--.item-->
-                 
-                </div><!--.carousel-inner-->
-                  <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
-                  <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
-                </div><!--.Carousel-->
-                 
-		</div>
-	</div>
-	</div>
-</div><!--.container-->
+<div class="slidecontainer">
+<div id="carouselcontainer" class="carouselcontainer">
+<a onclick="prev()" class="left carouselcontrol">‹</a>
+<a onclick="next()" class="right carouselcontrol">›</a>
+<h2>Our Hospitals</h2>
+<div id="carousel" class="carousel">
+<div class="box">
+<img src="img/fortis.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>FORTIS HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/manipal.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>MANIPAL HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/columbia.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>COLUMBIA HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/sakra.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>SAKRA HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/apollo.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>APOLLO HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/vikram.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>VIKRAM HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/hosmat.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>HOSMAT HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/hcg.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>HCG HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/narana.png" alt="Image" style="height:250px; width:250px;">
+<h3>NARANA HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/agarwals.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>AGARWALS HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/global.jpeg" alt="Image" style="height:250px; width:250px;">
+<h3>GLOBAL HOSPITAL</h3>
+</div>
+<div class="box">
+<img src="img/rainbow.jpg" alt="Image" style="height:250px; width:250px;">
+<h3>RAINBOW HOSPITAL</h3>
+</div>
+</div>
+</div>
+</div>
 
 <div class="container block45">
 <div class="col-sm-9">
 <div class="container block4">
 <div class="col-sm-6">
-<img src="img/docs.jpg" alt="Img">
-<div class="overlay"><i class="fas fa-file-download fa-3x"></i></div>
-<h3>MEET OUR DOCTORS</h3>
+<a class="flag" href="visa.html"><img src="img/visa.jpg" alt="Img"></a>
+<h3>VISA PROCESS</h3>
 </div>
 <div class="col-sm-6">
-<iframe width="560" height="315" 
-src="https://www.youtube.com/embed/VvYOtZU44Fc?start=22" >
-</iframe>
-<h3>DOCTOR AYESHA TAIMUR</h3>
+<a class="flag" href="location.html"><img src="img/giphy.webp"></a>
+<h3>LOCATION</h3>
 </div>
 </div>
 <div class="container block4">
@@ -310,45 +258,72 @@ src="https://www.youtube.com/embed/VvYOtZU44Fc?start=22" >
 
 <div id="footer" class="container bottomfooter" style="width:100%; padding:0; margin:0; background-color:black; color:black;"></div>
 
-<script>
+<!-- <script> -->
 
-$(document).ready(
-function() {
-if( $(window).width() > 768 ) { $('#menutoggle').show(); }
-else {}
+<!-- $(document).ready( -->
+<!-- function() { -->
+<!-- if( $(window).width() > 768 ) { $('#menutoggle').show(); } -->
+<!-- else {} -->
 
-if( $(window).width() < 768 ) { $('#menutoggle').hide(); }
-else {}
-}
-)
+<!-- if( $(window).width() < 768 ) { $('#menutoggle').hide(); } -->
+<!-- else {} -->
+<!-- } -->
+<!-- ) -->
 
-$(window).resize(function() {
-if( $(window).width() > 768 ) { $('#menutoggle').show(); }
-else {}
+<!-- $(window).resize(function() { -->
+<!-- if( $(window).width() > 768 ) { $('#menutoggle').show(); } -->
+<!-- else {} -->
 
-if( $(window).width() < 768 ) { $('#menutoggle').hide(); }
-else {}
-});
+<!-- if( $(window).width() < 768 ) { $('#menutoggle').hide(); } -->
+<!-- else {} -->
+<!-- }); -->
 
-</script>
+<!-- </script> -->
 
 <script src="myscripts.js"></script>
 
 <script>
-
 setTimeout(function (){
 document.getElementById("index").classList.add("active");
 }, 1000); // How long do you want the delay to be (in milliseconds)?
-
 </script>
 
 <script>
-$(document).ready(function() {
-    $('#Carousel').carousel({
-        interval: 3000
-    })
-});
+var slideimg = 3;
+if (window.matchMedia("(max-width: 758px)").matches) {slideimg = 1;} else {console.log("desktop");};
+console.log(slideimg);
+var numberofimg = document.getElementById('carousel').children.length;
+var boxwidth = document.getElementById('carousel').firstElementChild.clientWidth;
+var caroContainSize = (numberofimg * boxwidth);
+document.getElementById('carousel').style.width = caroContainSize + "px";
+
+var currentwidth = (boxwidth * slideimg);
+document.getElementById('carouselcontainer').style.width = currentwidth + "px";
+
+var totalslides = caroContainSize / currentwidth;
+var slidenumber = 0;
+var count = 0;
+
+function prev(){
+slidenumber--;
+if (slidenumber == -1) {slidenumber = totalslides - 1; console.log("reset done -"+ slidenumber);}
+console.log("clicked prev - "+ "and width set to "+ slidenumber);
+move();
+}
+
+function next(){
+slidenumber++;
+if (slidenumber == totalslides) {slidenumber = 0; console.log("reset done -"+ slidenumber);}
+move();
+console.log("clicked next - "+ "and width set to "+ slidenumber);
+}
+
+function move() {
+var setmargin = slidenumber * currentwidth;
+document.getElementById("carousel").style.marginLeft = -setmargin + "px";
+}
 </script>
+
 
 </body>
 </html>

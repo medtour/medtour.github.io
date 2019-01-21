@@ -44,6 +44,8 @@ body {border:; width:; height:;}
 .col-sm-1 {width:8.33%;float:left;}
 }
 
+.hidden {display:none;}
+
 #comingsoon {background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/scenery.jpg"); background-position: center; background-repeat: no-repeat, repeat; background-size:cover; height:calc(100vh - 82px);}
 @media only screen and (max-width:768px) {
 #comingsoon {background-size:auto 100vh; height:100vh;}
