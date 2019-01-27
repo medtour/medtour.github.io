@@ -95,8 +95,8 @@ document.getElementById("footer").innerHTML =
 "</div>" +
 "<div class='col-sm-4'>" +
 "<h3>CONTACT US</h3>" +
-"<p>Mobile : +91 98765 43211</p>" +
-"<p>Office : +91 98765 43211</p>" +
+"<p>Mobile : +91 91132 49026</p>" +
+"<p>Office : +91 99004 89007</p>" +
 "<p>Address : No 34, 1st floor, 11th cross,<br>1st stage, Indranagar,<br>Bangalore-560 038</p>" +
 "<h3>SOCIAL</h3>" +
 "<i class='fab fa-facebook-square'></i>" +
@@ -137,6 +137,8 @@ document.getElementById("sidepanel").innerHTML =
 "<option value='Oman'>Oman</option>" +
 "<option value='Africa'>Africa</option>" +
 "<option value='India'>India</option>" +
+"<option value='Bahrain'>Bahrain</option>" +
+"<option value='Egypt'>Egypt</option>" +
 "</select>" +
 "<br>" +
 "<label for='subject'>Subject</label><br>" +

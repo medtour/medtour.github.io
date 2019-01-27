@@ -73,6 +73,7 @@ header {height :60px; position:absolute; right:0px; z-index:10;}
 }
 .bottomfooter img {width:80%;}
 .bottomfooter div {color:white;}
+.bottomfooter i {padding: 0px 10px}
 .button {  background-color: #ddd;  border: none; color: black; padding: 8px 15px; text-align: center; text-decoration: none; display:inline-block; margin: 4px 2px; cursor: pointer; border-radius: 6px;}
 .button:hover {  background-color: #f1f1f1;}
 

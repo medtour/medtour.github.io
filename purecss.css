@@ -24,10 +24,9 @@ body {border:; width:; height:;}
 @media screen and (min-width:992px) and (max-width:1200px){.lg-visible {visibility: visible;display:block;}}
 @media screen and (min-width:1200px){.xl-visible {visibility: visible;display:block;}}
 
-.container {width:100%;overflow:hidden;}
+.container {width:100%; overflow:hidden; height:auto; box-sizing:border-box; padding:10px 20px;}
 
-.col-sm-12, .col-sm-11, .col-sm-10, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2,
-.col-sm-1 {box-sizing:border-box;padding:10px;}
+.col-sm-12, .col-sm-11, .col-sm-10, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1 {box-sizing:border-box; border:5px solid #ffffff00; overflow:hidden;}
 
 @media screen and (min-width:768px){
 .col-sm-12 {width:100%;float:left;}
