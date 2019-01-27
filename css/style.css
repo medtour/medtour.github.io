@@ -49,3 +49,18 @@
   cursor: move;
 }
 
+
+
+.section-project {width:100%; height:400px; overflow:hidden;}
+.project-strip {}
+.project {}
+
+.project-strip img {width:378px; height:160px; display:block;}
+.project-detail img {width:578px; height:360px; display:block;}
+@media only screen and (max-width:768px) {
+.project-strip {display:none;}
+.project-detail { width:300px; margin:0px;}
+.project { width:300px; }
+.project-detail img {width:500px; height:360px; display:block; }
+.project-screen .project-detail {margin:0px; margin-top:40px;}
+}
