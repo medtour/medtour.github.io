@@ -46,19 +46,21 @@
 .heart:before { top: -15px; left: 0;}
 .heart:after { left: 15px; top: 0;}
 
-.block45 {width:95%; margin:auto;}
 
-.block4 {width:90%; margin:auto;}
-.block4>div>h3 {margin:auto; text-align:center; padding-top:15px; padding-bottom:15px;}
-.block4>div>p { padding-left:0px; padding-top:0px; padding-bottom:30px; margin:auto; text-align:center;}
-.block4>div>img {display:block; height:260px;width:100%;}
-.block4>div>iframe {height:260px;width:100%;}
-.block4>.col-sm-6 { position:relative; overflow:hidden;}
-.overlay {height:260px; width:calc(100% - 20px); position:absolute; top:0; left:0; display:block; margin:10px;}
-.overlay:hover {background-color:rgba(255, 0, 0, 0.6);}
-.overlay>i:hover { color:red;}
-
-
+.block4 {width:70%; float:left; border:50px solid #ffffff00;}
+.block4 h3 { text-align:center; }
+.flag>img { height:200px; width:300px; margin:auto; display:block;}
+.block5 {width:30%;  float:left;}
+/* on tablet */
+@media only screen and (max-width:1080px) {
+.block4 {float:none; width:100%; border:0px;}
+.block5 {float:none; width:100%;  border:0px;}
+}
+/* on mobile */
+@media only screen and (max-width:768px) {
+.block4 {float:none; width:100%; border:0px;}
+.block5 {float:none; width:100%;  border:0px;}
+}
 
 .serviceblock {width:100%; padding:20px 50px; height:auto; text-align:center; box-sizing:border-box;}
 .medimg {background-repeat:no-repeat; background-position:center; height:150px; width:calc(25% - 40px); position:relative; float:left; margin:20px; cursor:pointer; -webkit-transition: all 2s ease; /* Safari */ transition: all 2s ease; background-size:100% 100%; display:;}
@@ -102,8 +104,7 @@
 .serviceicon>div:hover {border:3px solid red;}
 .serviceicon>div:hover img  { max-height:70%; max-width:70%;}
 
-.flag {}
-.flag>img {display:block; height:260px; width:100%; border:1px solid blue;}
+
 
 
 </style>
@@ -226,8 +227,9 @@ Promising enriching experience to medical tourists with a range of quality-prove
 </div>
 </div>
 
-<div class="container block45">
-<div class="col-sm-9">
+
+
+
 <div class="container block4">
 <div class="col-sm-6">
 <a class="flag" href="visa.html"><img src="img/visa.jpg" alt="Img"></a>
@@ -237,24 +239,22 @@ Promising enriching experience to medical tourists with a range of quality-prove
 <a class="flag" href="location.html"><img src="img/giphy.webp"></a>
 <h3>LOCATION</h3>
 </div>
-</div>
-<div class="container block4">
 <div class="col-sm-6">
-<img src="img/pen.jpg" alt="Img">
+<a class="flag" href="testimonial.html"><img src="img/pen.jpg" alt="Img"></a>
 <h3>TESTIMONIALS</h3>
 </div>
 <div class="col-sm-6">
-<img src="img/brochure.jpg" alt="Img">
+<a class="flag" href="#"><img src="img/brochure.jpg" alt="Img"></a>
 <h3>DOWNOAD OUR BROCHURE</h3>
 </div>
 </div>
-</div>
-
-<div id="sidepanel" class="col-sm-3 block5"></div>
 
 
+<div id="sidepanel" class="block5"></div>
 
-</div>
+
+
+
 
 <div id="footer" class="container bottomfooter" style="width:100%; padding:0; margin:0; background-color:black; color:black;"></div>
 
