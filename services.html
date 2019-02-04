@@ -13,23 +13,21 @@
 #sidepanel>.container {width:70%; background-color:; margin:auto;}
 
 
-.service {width:100%;}
-.service>.container {width:95%; margin:auto; display:block; overflow:hidden; text-align:center;  padding:0px;}
-
-.medimg {background-repeat:no-repeat; background-position:center; height:150px; width:calc(20% - 20px); position:relative; float:left; margin:10px; cursor:pointer; -webkit-transition: all 2s ease; /* Safari */ transition: all 2s ease; background-size:100% 100%; display:block;}
-.medimg:hover { background-size:130% 130%;}
-.treatments {background-color:rgba(0, 0, 0, 0.5); height:100%; width:100%; display:block;}
-.medimg h4 {position:absolute; bottom:0px; height:40%; width:100%; color:white; background-color:rgba(0, 0, 0, 0.5); padding:0px; margin:0px;}
-
 
 /* on tablet */
 @media only screen and (max-width:1080px) {
-.medimg {width:calc(33.3% - 10px); margin:5px;}
 }
+
+
+.serv {width:calc(100% - 40px); height:; box-sizing:border-box; border:10px solid grey; border-radius:20px; margin:20px; overflow:hidden; background-color:#cdffc1;}
+.serv>h2 {width:50%; height:100%; border:0px solid blue; display:block; margin:0; float:left; padding:20px;}
+.serv>img {display:block; height:250px; margin:auto; float:left; width:400px; padding:20px;}
+.even {border-color:orange;}
+.odd {border-color:grey;}
+
 /* on mobile */
 @media only screen and (max-width:768px) {
-.medimg {width:calc(50% - 10px);}
-.service>.container {width:100%;}
+.serv>img {height:200px;width:calc(100% - 40px);}
 }
 
 
@@ -43,262 +41,174 @@
 <div id="smedia" class="smedia"></div>
 
 
-<div class="service">
 <div class="container">
-<h3 class="">Please choose Ailment</h3>
-
-<div class="medimg" style="background-image:url('img/treatments/ent.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;ENT OTORHINOLARYNGOLOGY الأنف والأذن والحنجرة</h4>
-</a>
+<div class="serv even">
+<h2>ENT OTORHINOLARYNGOLOGY الأنف والأذن والحنجرة</h2>
+<img src="img/treatments/ent.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/cardiology.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;Cardiology &#8211; طب وجراحة القلب</h4>
-</a>
+<div class="serv odd">
+<h2>Cardiology &#8211; طب وجراحة القلب</h2>
+<img src="img/treatments/cardiology.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/stemcell.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;STEM CELL THERAPY &#8211; العلاج بالخلايا الجذعية</h4>
-</a>
+<div class="serv even">
+<h2>STEM CELL THERAPY &#8211; العلاج بالخلايا الجذعية</h2>
+<img src="img/treatments/stemcell.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/urology.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;UROLOGY &#8211; جراحة المسالك البولية</h4>
-</a>
+<div class="serv odd">
+<h2>UROLOGY &#8211; جراحة المسالك البولية</h2>
+<img src="img/treatments/urology.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/neurology.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;Neurology &#8211; طب وجراحة الأعصاب</h4>
-</a>
+<div class="serv even">
+<h2>Neurology &#8211; طب وجراحة الأعصاب</h2>
+<img src="img/treatments/neurology.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/pae.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;PAEDIATRICS</h4>
-</a>
+<div class="serv odd">
+<h2>PAEDIATRICS</h2>
+<img src="img/treatments/pae.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/spine.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;SPINE &#8211; العمود الفقري</h4>
-</a>
+<div class="serv even">
+<h2>SPINE &#8211; العمود الفقري</h2>
+<img src="img/treatments/spine.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/organ.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;TRANSPLANT &#8211; زراعة الأعضاء</h4>
-</a>
+<div class="serv odd">
+<h2>TRANSPLANT &#8211; زراعة الأعضاء</h2>
+<img src="img/treatments/organ.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/ortho.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;Orthopaedics &#8211; جراحة العظام</h4>
-</a>
+<div class="serv even">
+<h2>Orthopaedics &#8211; جراحة العظام</h2>
+<img src="img/treatments/ortho.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/aest.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;AESTHETIC MEDICINE</h4>
-</a>
+<div class="serv odd">
+<h2>AESTHETIC MEDICINE</h2>
+<img src="img/treatments/aest.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/optha.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;Eye/Ophthalmology &#8211; طب وجراحة العيون</h4>
-</a>
+<div class="serv even">
+<h2>Eye/Ophthalmology &#8211; طب وجراحة العيون</h2>
+<img src="img/treatments/optha.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/baria.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;BARIATRIC SURGERY &#8211; جراحة السمنة</h4>
-</a>
+<div class="serv odd">
+<h2>BARIATRIC SURGERY &#8211; جراحة السمنة</h2>
+<img src="img/treatments/baria.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/rehab.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;REHABILITATION &#8211; العلاج الطبيعي</h4>
-</a>
+<div class="serv even">
+<h2>REHABILITATION &#8211; العلاج الطبيعي</h2>
+<img src="img/treatments/rehab.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/gas.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;GASTROENTEROLOGY AND HEPATOLOGY</h4>
-</a>
+<div class="serv odd">
+<h2>GASTROENTEROLOGY AND HEPATOLOGY</h2>
+<img src="img/treatments/gas.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/paesur.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;PAEDIATRIC SURGERY</h4>
-</a>
+<div class="serv even">
+<h2>PAEDIATRIC SURGERY</h2>
+<img src="img/treatments/paesur.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/medgen.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;MEDICAL GENETICS &#8211; علم الوراثة الطبية</h4>
-</a>
+<div class="serv odd">
+<h2>MEDICAL GENETICS &#8211; علم الوراثة الطبية</h2>
+<img src="img/treatments/medgen.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/vascular.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;VASCULAR &#8211; الأوعية الدموية</h4>
-</a>
+<div class="serv even">
+<h2>VASCULAR &#8211; الأوعية الدموية</h2>
+<img src="img/treatments/vascular.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/well.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;Wellness &#8211; اللياقة</h4>
-</a>
+<div class="serv odd">
+<h2>Wellness &#8211; اللياقة</h2>
+<img src="img/treatments/well.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/fert.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;FERTILITY AND IVF &#8211; الخصوبة وأطفال الأنابيب</h4>
-</a>
+<div class="serv even">
+<h2>FERTILITY AND IVF &#8211; الخصوبة وأطفال الأنابيب</h2>
+<img src="img/treatments/fert.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('img/treatments/lapar.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;GENERAL SURGERY &#038; LAPROSCOPIC SURGERY &#8211; الجراحة العامة وجراحة المناظير</h4>
-</a>
+<div class="serv odd">
+<h2>GENERAL SURGERY &#038; LAPROSCOPIC SURGERY &#8211; الجراحة العامة وجراحة المناظير</h2>
+<img src="img/treatments/lapar.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_284499803-300x202.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;CHECK UP &#8211; الفحص الشامل</h4>
-</a>
+<div class="serv even">
+<h2>CHECK UP &#8211; الفحص الشامل</h2>
+<img src="wp-content/uploads/shutterstock_284499803-300x202.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_188711162-226x300.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;ALLERGY/IMMUNOLOGY الحساسية / علم المناعة</h4>
-</a>
+<div class="serv odd">
+<h2>ALLERGY/IMMUNOLOGY الحساسية / علم المناعة</h2>
+<img src="wp-content/uploads/shutterstock_188711162-226x300.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/preventive-care-300x86.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;PREVENTIVE &#8211; الطب الوقائي</h4>
-</a>
+<div class="serv even">
+<h2>PREVENTIVE &#8211; الطب الوقائي</h2>
+<img src="wp-content/uploads/preventive-care-300x86.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_299690342-300x202.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;PAEDIATRIC PSYCHOLOGY علم النفس للأطفال</h4>
-</a>
+<div class="serv odd">
+<h2>PAEDIATRIC PSYCHOLOGY علم النفس للأطفال</h2>
+<img src="wp-content/uploads/shutterstock_299690342-300x202.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_265969412-300x257.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;PAIN MANAGEMENT التحكم بالألم</h4>
-</a>
+<div class="serv even">
+<h2>PAIN MANAGEMENT التحكم بالألم</h2>
+<img src="wp-content/uploads/shutterstock_265969412-300x257.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;Gamma Knife Surgery  جراحة سكين غاما</h4>
-</a>
+<div class="serv odd">
+<h2>Gamma Knife Surgery  جراحة سكين غاما</h2>
+<img src="wp-content/uploads/">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/palliative-care.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;PALLIATIVE CARE الرعاية التلطيفية</h4>
-</a>
+<div class="serv even">
+<h2>PALLIATIVE CARE الرعاية التلطيفية</h2>
+<img src="wp-content/uploads/palliative-care.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_206136706-300x202.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;PSYCHOLOGY الطب النفسي</h4>
-</a>
+<div class="serv odd">
+<h2>PSYCHOLOGY الطب النفسي</h2>
+<img src="wp-content/uploads/shutterstock_206136706-300x202.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_305984453-1-300x239.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;RADIOLOGY- DIAGNOSTIC TESTS AND PROCEDURES الأشعة وإجراءات التشخيص</h4>
-</a>
+<div class="serv even">
+<h2>RADIOLOGY- DIAGNOSTIC TESTS AND PROCEDURES الأشعة وإجراءات التشخيص</h2>
+<img src="wp-content/uploads/shutterstock_305984453-1-300x239.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_356212016-300x202.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;RESPIRATORY MEDICINE &#8211; طب العلاج التنفسي</h4>
-</a>
+<div class="serv odd">
+<h2>RESPIRATORY MEDICINE &#8211; طب العلاج التنفسي</h2>
+<img src="wp-content/uploads/shutterstock_356212016-300x202.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_376434412-300x202.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;RHEUMATOLOGY الروماتيزم</h4>
-</a>
+<div class="serv even">
+<h2>RHEUMATOLOGY الروماتيزم</h2>
+<img src="wp-content/uploads/shutterstock_376434412-300x202.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>Insulin Pump Therapy &#8211; العلاج بمضخة الانسولين</h4>
-</a>
+<div class="serv odd">
+<h2>Insulin Pump Therapy &#8211; العلاج بمضخة الانسولين</h2>
+<img src="wp-content/uploads/">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_372247498-221x300.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;ANDROLOGY الذكورة</h4>
-</a>
+<div class="serv even">
+<h2>ANDROLOGY الذكورة</h2>
+<img src="wp-content/uploads/shutterstock_372247498-221x300.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_370975286-300x202.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;DERMATOLOGY الجلدية</h4>
-</a>
+<div class="serv odd">
+<h2>DERMATOLOGY الجلدية</h2>
+<img src="wp-content/uploads/shutterstock_370975286-300x202.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_481442536-300x202.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;WOUND CARE AND HYPERBARIC MEDICINE العناية بالجروج وطب ارتفاع الضغط</h4>
-</a>
+<div class="serv even">
+<h2>WOUND CARE AND HYPERBARIC MEDICINE العناية بالجروج وطب ارتفاع الضغط</h2>
+<img src="wp-content/uploads/shutterstock_481442536-300x202.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_187088732-300x212.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;ENDOCRINOLOGY الغدد</h4>
-</a>
+<div class="serv odd">
+<h2>ENDOCRINOLOGY الغدد</h2>
+<img src="wp-content/uploads/shutterstock_187088732-300x212.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/nuclear-medicine-ch.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;NUCLEAR MEDICINE الطب النووي</h4>
-</a>
+<div class="serv even">
+<h2>NUCLEAR MEDICINE الطب النووي</h2>
+<img src="wp-content/uploads/nuclear-medicine-ch.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/Nephrology_final-300x200.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;Nephrology &#8211; طب الكلى</h4>
-</a>
+<div class="serv odd">
+<h2>Nephrology &#8211; طب الكلى</h2>
+<img src="wp-content/uploads/Nephrology_final-300x200.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/Oncology-300x153.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;Cancer / Oncology &#8211; علم الدم والأورام</h4>
-</a>
+<div class="serv even">
+<h2>Cancer / Oncology &#8211; علم الدم والأورام</h2>
+<img src="wp-content/uploads/Oncology-300x153.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_142427935-300x202.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>Dental &#8211; طب وجراحة الأسنان</h4>
-</a>
+<div class="serv odd">
+<h2>Dental &#8211; طب وجراحة الأسنان</h2>
+<img src="wp-content/uploads/shutterstock_142427935-300x202.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_194985809-300x202.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;Gynaecology &#8211; طب النساء</h4>
-</a>
+<div class="serv even">
+<h2>Gynaecology &#8211; طب النساء</h2>
+<img src="wp-content/uploads/shutterstock_194985809-300x202.jpg">
 </div>
-
-<div class="medimg" style="background-image:url('wp-content/uploads/shutterstock_299665025-1-300x202.jpg')">
-<a class="treatments" href="#">
-<h4><i class="fas fa-stethoscope"></i>&nbsp;Cosmetic and Plastic &#8211; الجراحة التجميلية</h4>
-</a>
-</div>
-
+<div class="serv odd">
+<h2>Cosmetic and Plastic &#8211; الجراحة التجميلية</h2>
+<img src="wp-content/uploads/shutterstock_299665025-1-300x202.jpg">
 </div>
 </div>
 

@@ -9,6 +9,15 @@ document.getElementById("head").innerHTML =
 
 
 document.getElementById("headercontent").innerHTML = 
+"<img style='float:left; height:80px;'src='img/mlogo.png'><div class='companyname'>MEDFORTE<br><div style='color:#a6221c;'>Wellcare Centre</div></div>" +
+
+"<div class='headcontact'>" +
+"<ul>" +
+"<li><i style='color:#077982;' class='fas fa-phone'></i><a style='color:#077982;' href='tel:+919113249026'>+91-9113249026</a></li>" +
+"<li><i style='color:#3eb72b;' class='fab fa-whatsapp'></i><a style='color:#3eb72b;' href='tel:+919900489007'>+91-9900489007</a></li>" +
+"<li><i style='color:blue;' class='far fa-envelope'></i><a style='color:blue;' href='mailto:info@medforte.org'>info@medforte.org</a></li>" +
+"</ul>" +
+"</div>" +
 
 "<div class='menuholder xs-visible'>" +
 
@@ -24,10 +33,6 @@ document.getElementById("headercontent").innerHTML =
 
 
 document.getElementById("menutoggle").innerHTML = 
-
-
-"<div class='companyname'>MEDFORTE<br><div>Wellcare Centre</div></div>" +
-
 
 "<ul>" +
 
@@ -53,6 +58,10 @@ document.getElementById("menutoggle").innerHTML =
 
 "<li>" +
 "<a id='service' href='services.html'>Services</a>" +
+"</li>" +
+
+"<li>" +
+"<a id='work' href='work.html'>How MedForte Work</a>" +
 "</li>" +
 
 "<li>" +
@@ -105,12 +114,11 @@ document.getElementById("footer").innerHTML =
 "<i class='fab fa-instagram'></i>" +
 "</div>" +
 "<div class='col-sm-4'>" +
-"<h3>FOLLOW BLOG VIA EMAIL</h3>" +
-"<div class=''>Enter your email address to follow this blog and receive notifications of new posts by email." +
+"<h3>GET A CALL</h3>" +
+"<div class=''>Enter your number to get a call from us." +
 
-"<h3>Join 77 other followers</h3>" +
-"<input type='text' name='email' style='width: 95%; padding: 1px 2px' placeholder='Enter your email address' value='' id='subscribe-field'>" +
-"<button class='button'>FOLLOW</button>" +
+"<input type='text' name='email' style='width: 95%; padding: 1px 2px' placeholder='Enter your Contact number' value='' id='subscribe-field'>" +
+"<button class='button'>SUBMIT</button>" +
 "</div>" +
 
 "</div>" ;

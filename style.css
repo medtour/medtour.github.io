@@ -1,33 +1,41 @@
 body {margin:0;display:block;font-weight: 700;font: 300 normal 15px/1.4 Raleway,sans-serif;letter-spacing: .05em;}
-header {height :0px; overflow:hidden;}
+header { overflow:hidden;}
 
 @media only screen and (max-width:768px) {
-header {height :60px; position:absolute; right:0px; z-index:10;}
+header {height :;  z-index:10;}
 }
 /* menubar */
-.menuholder{width:50px;height:30px;float:right;margin:25px 15px 0 0;}
-.menu{height:22px;width:50px;}
+.menuholder{width:100%;height:30px;float:right;margin:25px 15px 0 0;}
+.menu{height:22px;width:50px;float:right;}
 .linebar {border-radius: 2px;height:4px;width:40px;background-color:#ee6e12;}
 .linebar:nth-child(1) {margin-bottom:5px;transition: .5s;}
 .linebar:nth-child(2) {margin-bottom:5px;transition: .5s;}
 .linebar:nth-child(3) {transition: .5s;}
-.menuon{height:30px;width:40px;}
+.menuon{height:30px;width:40px; float:right;}
 .menuon>.linebar {margin-left:-5px;margin-right:-10px;}
 .menuon>.linebar:nth-child(1) {transform: rotate(130deg);margin-top:13px;margin-bottom:-5px;}
 .menuon>.linebar:nth-child(2) {opacity: 0;}
 .menuon>.linebar:nth-child(3) {transform: rotate(-130deg);margin-top:-8px;}
 
-/* navigation */
-.companyname {padding:13px; margin:0; height:; border:; float:left; color:white;font-family: 'Montserrat',Arial,sans-serif;font-weight: 900; font-size:20px;}
-.companyname>div {font-style:italic; font-weight: 600;}
 
-.nav {border:0; overflow:hidden; width:100%; background-color:black; z-index:100;}
-.nav>ul {list-style-type:none; margin:0; padding:0; overflow:hidden; width:;margin:; float:right; border:}
+/* navigation */
+.companyname {padding:13px; margin:0; height:; border:; float:left; color:#9f201e;font-family: 'Montserrat',Arial,sans-serif;font-weight: 900; font-size:20px;}
+.companyname>div {font-style:italic; font-weight: 600;}
+.headcontact {float:right; margin-right:20px;}
+.headcontact>ul {list-style-type:none; padding:0;}
+.headcontact a {text-decoration:none; padding-left:10px; color:#3eb72b;}
+@media only screen and (max-width:768px) {
+.companyname {padding:; width:calc(100% - 130px); text-align:right;}
+.headcontact {float:left; width:100%; text-align:center;}	
+}
+
+.nav {border:0; overflow:hidden; width:100%; background-color:red; z-index:100;}
+.nav>ul {list-style-type:none; margin:0; padding:0; overflow:hidden; max-width:955px; margin:auto; }
 .nav>ul>li {float:left;  display:block; }
-.nav a {padding:30px 20px; display:block; background-color:black;position: relative;z-index:2;overflow:hidden;color:white;text-decoration:none; }
-.nav a::after {position: absolute; content: ''; top:0; left: 50%; width: 0;  height: 100%;  background-color:#181818; transform-origin:center;  transition:0.25s ease;  z-index:-1;}
+.nav a {padding:30px 20px; display:block; background-color:red;position: relative;z-index:2;overflow:hidden;color:white;text-decoration:none; }
+.nav a::after {position: absolute; content: ''; top:0; left: 50%; width: 0;  height: 100%;  background-color:crimson; transform-origin:center;  transition:0.25s ease;  z-index:-1;}
 .nav a:hover::after {width:100%;left:0;}
-.nav .active {background-color:#181818;}
+.nav .active {background-color:crimson;}
 .dropdown {float:left;}
 .dropdown-content {display:none;position:absolute;min-width:150px;top:80px;z-index:3;}
 @media only screen and (min-width:768px) {.dropdown:hover .dropdown-content {display:block;} }
