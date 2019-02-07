@@ -13,6 +13,7 @@ document.getElementById("headercontent").innerHTML =
 
 "<div class='headcontact'>" +
 "<ul>" +
+"<li><div id='google_translate_element'></div></li>" +
 "<li><i style='color:#077982;' class='fas fa-phone'></i><a style='color:#077982;' href='tel:+919113249026'>+91-9113249026</a></li>" +
 "<li><i style='color:#3eb72b;' class='fab fa-whatsapp'></i><a style='color:#3eb72b;' href='tel:+919900489007'>+91-9900489007</a></li>" +
 "<li><i style='color:blue;' class='far fa-envelope'></i><a style='color:blue;' href='mailto:info@medforte.org'>info@medforte.org</a></li>" +
@@ -61,7 +62,7 @@ document.getElementById("menutoggle").innerHTML =
 "</li>" +
 
 "<li>" +
-"<a id='work' href='work.html'>How MedForte Work</a>" +
+"<a id='work' href='work.html'>How MedForte Works</a>" +
 "</li>" +
 
 "<li>" +
@@ -210,3 +211,15 @@ console.log(previous , clicked);
 
 function add() {clicked.classList.add("activecoll");clicked.nextElementSibling.style.maxHeight = clicked.nextElementSibling.scrollHeight + "px";}
 function remove() {previous.classList.remove("activecoll"); previous.nextElementSibling.style.maxHeight = null;}
+
+
+
+
+
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+    {pageLanguage: 'en'},
+    'google_translate_element'
+  );
+}
+
