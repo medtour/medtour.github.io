@@ -30,7 +30,7 @@ header {height :;  z-index:10;}
 }
 
 .nav {border:0; overflow:hidden; width:100%; background-color:red; z-index:100;}
-.nav>ul {list-style-type:none; margin:0; padding:0; overflow:hidden; max-width:955px; margin:auto; }
+.nav>ul {list-style-type:none; margin:0; padding:0; overflow:hidden; max-width:960px; margin:auto; }
 .nav>ul>li {float:left;  display:block; }
 .nav a {padding:30px 20px; display:block; background-color:red;position: relative;z-index:2;overflow:hidden;color:white;text-decoration:none; }
 .nav a::after {position: absolute; content: ''; top:0; left: 50%; width: 0;  height: 100%;  background-color:crimson; transform-origin:center;  transition:0.25s ease;  z-index:-1;}
