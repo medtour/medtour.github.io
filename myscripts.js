@@ -105,9 +105,9 @@ document.getElementById("footer").innerHTML =
 "</div>" +
 "<div class='col-sm-4'>" +
 "<h3>CONTACT US</h3>" +
-"<p>Mobile : +91 91132 49026</p>" +
-"<p>Office : +91 99004 89007</p>" +
-"<p>Address : No 34, 1st floor, 11th cross,<br>1st stage, Indranagar,<br>Bangalore-560 038</p>" +
+"<p>Mobile : +91-9113249026</p>" +
+"<p>Office : +91-9900489007</p>" +
+"<p>Address : No 34, 1st floor, 11th cross,<br>1st stage, Indranagar,<br>Bangalore-560038</p>" +
 "<h3>SOCIAL</h3>" +
 "<i class='fab fa-facebook-square'></i>" +
 "<i class='fab fa-twitter'></i>" +
