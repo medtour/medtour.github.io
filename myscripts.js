@@ -150,9 +150,20 @@ document.getElementById("sidepanel").innerHTML =
 "<option value='Saudi Arabia'>Saudi Arabia</option>" +
 "<option value='Oman'>Oman</option>" +
 "<option value='Africa'>Africa</option>" +
-"<option value='India'>India</option>" +
-"<option value='Bahrain'>Bahrain</option>" +
 "<option value='Egypt'>Egypt</option>" +
+"<option value='Algeria'>Algeria</option>" +
+"<option value='Qatar'>Qatar</option>" +
+"<option value='Palestine'>Palestine</option>" +
+"<option value='Iraq'>Iraq</option>" +
+"<option value='Jordan'>Jordan</option>" +
+"<option value='Kuwait'>Kuwait</option>" +
+"<option value='Lebanon'>Lebanon</option>" +
+"<option value='Libya'>Libya</option>" +
+"<option value='Morocco'>Morocco</option>" +
+"<option value='Somalia'>Somalia</option>" +
+"<option value='Sudan'>Sudan</option>" +
+"<option value='Yemen'>Yemen</option>" +
+"<option value='Others'>Others</option>" +
 "</select>" +
 "<br>" +
 "<label for='subject'>Subject</label><br>" +
