@@ -65,15 +65,19 @@ header {height :;  z-index:10;}
 
 /* Social */
 .smedia { height:200px; width:40px; overflow:hidden; position:fixed; top:40%; left:0px; z-index:20; box-sizing:content-box!important;}
-.smedia>.fab {  padding: 9px 17px 19px 12px;  font-size: 23px; width: 10px; text-align: center; text-decoration: none; border-radius: 50%; height:10px; margin: 5px 0px;  box-sizing:content-box!important;}
+.smedia>.fab { height:40px; width:40px; border-radius:50px; text-align:center; line-height: 40px; text-decoration:none; margin:3px 0px; font-size:23px; color:white;}
 .smedia>.fab:hover {opacity: 0.7;}
-.smedia>.fa-facebook-f { background: #3B5998; color: white;}
-.smedia>.fa-twitter { background: #55ACEE; color: white;}
-.smedia>.fa-youtube {  background: #bb0000;  color: white;}
-.smedia>.fa-instagram {  background: #125688;  color: white;}
+.smedia>.fa-facebook-f { background: #3B5998;}
+.smedia>.fa-twitter { background: #55ACEE;}
+.smedia>.fa-youtube {  background: #bb0000;}
+.smedia>.fa-instagram {  background: #125688;}
 @media only screen and (max-width:768px) {
 .smedia { display:none;}
 }
+
+.smedia2 {text-align:center;}
+.smedia2>a {padding:10px; text-decoration:none; font-size:20px; color:blue;}
+.smedia2>a:hover {font-size:18px; border:1px solid black; box-sizing:border-box;}
 
 .bottomfooter {background-color:black; min-height:380px; overflow:hidden; width:100%; box-sizing:border-box; border-right:100px solid; border-left:100px solid;}
 @media only screen and (max-width:768px) {

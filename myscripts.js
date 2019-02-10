@@ -90,10 +90,9 @@ document.getElementById("menutoggle").innerHTML =
 
 document.getElementById("smedia").innerHTML = 
 
-"<a href='#' class='fab fa-facebook-f'></a>" +
-"<a href='#' class='fab fa-twitter'></a>" +
-"<a href='#' class='fab fa-youtube'></a>" +
-"<a href='#' class='fab fa-instagram'></a>" ;
+"<a href='https://www.facebook.com/Medforte-395683864540938/' class='fab fa-facebook-f'></a>" +
+"<a href='https://twitter.com/Medforte1' class='fab fa-twitter'></a>" +
+"<a href='https://www.youtube.com/channel/UCLAeZifl4hvRes8Kv8Il2Ug' class='fab fa-youtube'></a>" ;
 
 
 document.getElementById("footer").innerHTML = 
@@ -107,19 +106,25 @@ document.getElementById("footer").innerHTML =
 "<h3>CONTACT US</h3>" +
 "<p>Mobile : +91-9113249026</p>" +
 "<p>Office : +91-9900489007</p>" +
+"<p>Email : info@medforte.org</p>" +
+"<p>Website : www.medforte.org</p>" +
 "<p>Address : No 34, 1st floor, 11th cross,<br>1st stage, Indranagar,<br>Bangalore-560038</p>" +
-"<h3>SOCIAL</h3>" +
-"<i class='fab fa-facebook-square'></i>" +
-"<i class='fab fa-twitter'></i>" +
-"<i class='fab fa-youtube'></i>" +
-"<i class='fab fa-instagram'></i>" +
+
 "</div>" +
 "<div class='col-sm-4'>" +
 "<h3>GET A CALL</h3>" +
 "<div class=''>Enter your number to get a call from us." +
-
+"<form action='https://secure.mailjol.net/allforms/u/22755afd.php' method='post'>" +
+"<input type='text' name='country' style='width: 95%; padding: 1px 2px' placeholder='Your Country' value='' id='subscribe-field'>" +
 "<input type='text' name='email' style='width: 95%; padding: 1px 2px' placeholder='Enter your Contact number' value='' id='subscribe-field'>" +
 "<button class='button'>SUBMIT</button>" +
+"</form>" +
+"<h3>SOCIAL</h3>" +
+"<div class='smedia2'>" +
+"<a href='https://www.facebook.com/Medforte-395683864540938/' class='fab fa-facebook-square'></a>" +
+"<a href='https://twitter.com/Medforte1' class='fab fa-twitter'></a>" +
+"<a href='https://www.youtube.com/channel/UCLAeZifl4hvRes8Kv8Il2Ug'><i class='fab fa-youtube'></i></a>" +
+"</div>" +
 "</div>" +
 
 "</div>" ;
@@ -128,7 +133,7 @@ document.getElementById("sidepanel").innerHTML =
 
 "<div class='container'>" +
 "<h3>MAKE AN APPOINTMENT</h3>" +
-"<form action='' method='post'>" +
+"<form action='https://secure.mailjol.net/allforms/u/22755afd.php' method='post'>" +
 "<label for='fname'>First Name</label><br>" +
 "<input type='text' id='fname' name='firstname' placeholder='Your name..'>" +
 "<br>" +
@@ -158,12 +163,12 @@ document.getElementById("sidepanel").innerHTML =
 "</div>" +
 
 
-"<div class='container'>" +
+"<div class='container smedia2'>" +
 "<h3>SOCIAL</h3>" +
-"<i class='fab fa-facebook-square'></i>" +
-"<i class='fab fa-twitter'></i>" +
-"<i class='fab fa-youtube'></i>" +
-"<i class='fab fa-instagram'></i>" +
+"<a href='https://www.facebook.com/Medforte-395683864540938/' class='fab fa-facebook-square'></a>" +
+"<a href='https://twitter.com/Medforte1' class='fab fa-twitter'></a>" +
+"<a href='https://www.youtube.com/channel/UCLAeZifl4hvRes8Kv8Il2Ug'><i class='fab fa-youtube'></i></a>" +
+
 "</div>" ;
 
 
