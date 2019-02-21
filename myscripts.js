@@ -120,7 +120,7 @@ document.getElementById("footer").innerHTML =
 "<button class='button'>SUBMIT</button>" +
 "</form>" +
 "<h3>SOCIAL</h3>" +
-"<div class='smedia2'>" +
+"<div class='smedia2' style='color:red!improtant;'>" +
 "<a href='https://www.facebook.com/Medforte-395683864540938/' class='fab fa-facebook-square'></a>" +
 "<a href='https://twitter.com/Medforte1' class='fab fa-twitter'></a>" +
 "<a href='https://www.youtube.com/channel/UCLAeZifl4hvRes8Kv8Il2Ug'><i class='fab fa-youtube'></i></a>" +

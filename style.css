@@ -76,7 +76,7 @@ header {height :;  z-index:10;}
 }
 
 .smedia2 {text-align:center;}
-.smedia2>a {padding:10px; text-decoration:none; font-size:20px; color:blue;}
+.smedia2>a {padding:10px; text-decoration:none; font-size:20px; color:red;}
 .smedia2>a:hover {font-size:18px; border:1px solid black; box-sizing:border-box;}
 
 .bottomfooter {background-color:black; min-height:380px; overflow:hidden; width:100%; box-sizing:border-box; border-right:100px solid; border-left:100px solid;}
