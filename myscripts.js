@@ -9,11 +9,11 @@ document.getElementById("head").innerHTML =
 
 
 document.getElementById("headercontent").innerHTML = 
-"<img style='float:left; height:80px;'src='img/logo.jpeg'><div class='companyname'>MEDFORTE<br><div style='color:#a6221c;'>Wellcare Centre</div></div>" +
+"<img style='float:left; height:80px;'src='img/logom.jpg'><div class='companyname'>MEDFORTE<br><div style='color:#a6221c;'>Healthcare Services</div></div>" +
 
 "<div class='headcontact'>" +
 "<ul>" +
-// "<li><div id='google_translate_element'></div></li>" +
+"<li><div id='google_translate_element'></div></li>" +
 "<li><i style='color:#077982;' class='fas fa-phone'></i><a style='color:#077982;' href='tel:+919113249026'>+91-9113249026</a></li>" +
 "<li><i style='color:#3eb72b;' class='fab fa-whatsapp'></i><a style='color:#3eb72b;' href='tel:+919900489007'>+91-9900489007</a></li>" +
 "<li><i style='color:blue;' class='far fa-envelope'></i><a style='color:blue;' href='mailto:info@medforte.org'>info@medforte.org</a></li>" +
